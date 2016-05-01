@@ -1,0 +1,114 @@
+level,id,label
+,Q6423319,"knowledge organization system"
+-,Q1045785,"semantic network"
+-,Q2352616,catalog
+--,Q1006160,gazetteer
+--,Q134995,bibliography
+---,Q1391116,"subject bibliography"
+--,Q1400059,Urbarium
+--,Q1428914,Q1428914
+---,Q1394657,"company register"
+--,Q16101780,"population register"
+--,Q16832380,"recording catalog"
+--,Q16928212,index
+--,Q1915979,"medal table"
+---,Q3890208,"Olympic medal table"
+--,Q201456,directory
+---,Q818391,"Home directory"
+---,Q972090,"Root directory"
+--,Q2038458,Q2038458
+--,Q220393,"telephone directory"
+--,Q2249973,Q2249973
+--,Q22692845,"Terminology registry"
+--,Q254213,"civil registry"
+---,Q21126234,"birth registry"
+--,Q2560570,"thematic catalog"
+---,Q1371849,filmography
+----,Q17438413,videography
+===,Q17438413,videography
+---,Q273057,discography
+---,Q5051330,"catalogue of classical compositions"
+---,Q605175,"astronomical catalog"
+----,Q850950,"star catalogue"
+---,Q6941730,"Music catalog"
+====,Q5051330,"catalogue of classical compositions"
+--,Q327349,"web directory"
+--,Q3346024,Nuancier
+---,Q369074,"RAL color system"
+--,Q36524,"authority control"
+--,Q367035,"address book"
+--,Q672598,"land registration"
+---,Q1413174,"Ōtabumi"
+--,Q780605,"exhibition catalogue"
+--,Q856638,"library catalog"
+--,Q897682,"Business directory"
+-,Q324254,ontology
+--,Q3112318,"Geopolitical ontology"
+--,Q3882785,"Upper ontology"
+--,Q7247296,"Process ontology"
+--,Q7977959,"Weak ontology"
+=,Q36524,"authority control"
+-,Q5962346,classification
+--,Q1062352,"video game content rating system"
+--,P1135,"nomenclatural status"
+--,Q11398,"biological classification"
+---,Q19915239,"Taxonomy of birds"
+---,Q2621880,Q2621880
+--,Q1207369,"decimal classification"
+--,Q16861376,"military casualty classification"
+--,Q1744559,"classification in sports"
+---,Q17080472,"weight class"
+----,Q1520639,"Wrestling weight classes"
+---,Q1744558,"equestrian sports classification"
+---,Q18762344,"age category in athletics"
+---,Q438958,"age category in soccer"
+---,Q893182,"Olympic sailing class"
+--,Q1744628,"statistical classification"
+---,Q15101896,"asteroid classification"
+----,Q12899355,"SMASS classification"
+----,Q1750705,"asteroid spectral type"
+----,Q2332332,"minor-planet group"
+----,Q249083,"asteroid family"
+---,Q179600,"stellar classification"
+---,Q302088,"document classification"
+--,Q192625,"linguistic typology"
+---,Q257885,"word order"
+--,Q267474,"climate classification"
+---,Q1502102,"genetic climate classification"
+---,Q21473954,"effective climate classification"
+--,Q3518464,"Medical classification"
+--,Q3550897,"lithostratigraphic unit"
+---,Q11755860,subgroup
+---,Q12758989,stratum
+---,Q2092603,member
+---,Q736917,formation
+----,Q11755878,member
+-----,Q806617,bed
+-----,Q82337,"Portland limestone"
+----,Q1404150,rock
+-----,Q1774225,"Climbing rock"
+----,Q358877,cavus
+----,Q5567629,"Glen Canyon Group"
+---,Q7452453,sequence
+---,Q824979,group
+--,Q48473,"library classification"
+--,Q5165090,"content rating system"
+---,Q14775294,"motion picture rating system"
+----,Q3560977,"film distribution certificate"
+---,Q3232092,"television content rating system"
+--,Q5333554,"economic taxonomy"
+---,Q2976602,"Industry classification"
+---,Q828962,"job classification system"
+--,Q732744,"chemical classification"
+--,Q898943,"biosafety level"
+-,Q8380731,terminology
+--,Q1192539,"medical terminology"
+--,Q20202269,"Music terminology"
+--,Q863247,nomenclature
+---,Q2404232,nosography
+---,Q522190,"biological nomenclature"
+----,Q2976606,"Phylogenetic nomenclature"
+----,Q864016,Q864016
+---,Q6503924,"Chemical nomenclature"
+----,Q20826683,"IUPAC chemical nomenclature"
+----,Q824258,"International nonproprietary name"

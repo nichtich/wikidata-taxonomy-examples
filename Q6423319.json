@@ -1,0 +1,537 @@
+[ {
+  "id": "P1135",
+  "label": "nomenclatural status",
+  "parent": "Q5962346"
+},{
+  "id": "Q11398",
+  "label": "biological classification",
+  "parent": "Q5962346"
+},{
+  "id": "Q36524",
+  "label": "authority control",
+  "parent": "Q2352616"
+},{
+  "id": "Q36524",
+  "label": "authority control",
+  "parent": "Q6423319"
+},{
+  "id": "Q48473",
+  "label": "library classification",
+  "parent": "Q5962346"
+},{
+  "id": "Q134995",
+  "label": "bibliography",
+  "parent": "Q2352616"
+},{
+  "id": "Q179600",
+  "label": "stellar classification",
+  "parent": "Q1744628"
+},{
+  "id": "Q192625",
+  "label": "linguistic typology",
+  "parent": "Q5962346"
+},{
+  "id": "Q201456",
+  "label": "directory",
+  "parent": "Q2352616"
+},{
+  "id": "Q220393",
+  "label": "telephone directory",
+  "parent": "Q571"
+},{
+  "id": "Q220393",
+  "label": "telephone directory",
+  "parent": "Q2352616"
+},{
+  "id": "Q254213",
+  "label": "civil registry",
+  "parent": "Q2352616"
+},{
+  "id": "Q254213",
+  "label": "civil registry",
+  "parent": "Q3071343"
+},{
+  "id": "Q257885",
+  "label": "word order",
+  "parent": "Q192625"
+},{
+  "id": "Q257885",
+  "label": "word order",
+  "parent": "Q1069998"
+},{
+  "id": "Q267474",
+  "label": "climate classification",
+  "parent": "Q5962346"
+},{
+  "id": "Q273057",
+  "label": "discography",
+  "parent": "Q2560570"
+},{
+  "id": "Q302088",
+  "label": "document classification",
+  "parent": "Q1744628"
+},{
+  "id": "Q324254",
+  "label": "ontology",
+  "parent": "Q6423319"
+},{
+  "id": "Q327349",
+  "label": "web directory",
+  "parent": "Q35127"
+},{
+  "id": "Q327349",
+  "label": "web directory",
+  "parent": "Q2352616"
+},{
+  "id": "Q358877",
+  "label": "cavus",
+  "parent": "Q190429"
+},{
+  "id": "Q358877",
+  "label": "cavus",
+  "parent": "Q736917"
+},{
+  "id": "Q367035",
+  "label": "address book",
+  "parent": "Q386724"
+},{
+  "id": "Q367035",
+  "label": "address book",
+  "parent": "Q2352616"
+},{
+  "id": "Q369074",
+  "label": "RAL color system",
+  "parent": "Q58778"
+},{
+  "id": "Q369074",
+  "label": "RAL color system",
+  "parent": "Q3346024"
+},{
+  "id": "Q438958",
+  "label": "age category in soccer",
+  "parent": "Q1744559"
+},{
+  "id": "Q522190",
+  "label": "biological nomenclature",
+  "parent": "Q863247"
+},{
+  "id": "Q605175",
+  "label": "astronomical catalog",
+  "parent": "Q2560570"
+},{
+  "id": "Q672598",
+  "label": "land registration",
+  "parent": "Q2352616"
+},{
+  "id": "Q732744",
+  "label": "chemical classification",
+  "parent": "Q5962346"
+},{
+  "id": "Q736917",
+  "label": "formation",
+  "parent": "Q3550897"
+},{
+  "id": "Q780605",
+  "label": "exhibition catalogue",
+  "parent": "Q2352616"
+},{
+  "id": "Q818391",
+  "label": "Home directory",
+  "parent": "Q201456"
+},{
+  "id": "Q824258",
+  "label": "International nonproprietary name",
+  "parent": "Q6503924"
+},{
+  "id": "Q824979",
+  "label": "group",
+  "parent": "Q3550897"
+},{
+  "id": "Q828962",
+  "label": "job classification system",
+  "parent": "Q5333554"
+},{
+  "id": "Q850950",
+  "label": "star catalogue",
+  "parent": "Q605175"
+},{
+  "id": "Q856638",
+  "label": "library catalog",
+  "parent": "Q8513"
+},{
+  "id": "Q856638",
+  "label": "library catalog",
+  "parent": "Q2352616"
+},{
+  "id": "Q863247",
+  "label": "nomenclature",
+  "parent": "Q8380731"
+},{
+  "id": "Q864016",
+  "label": "Q864016",
+  "parent": "Q522190"
+},{
+  "id": "Q893182",
+  "label": "Olympic sailing class",
+  "parent": "Q1744559"
+},{
+  "id": "Q893182",
+  "label": "Olympic sailing class",
+  "parent": "Q18758641"
+},{
+  "id": "Q897682",
+  "label": "Business directory",
+  "parent": "Q2352616"
+},{
+  "id": "Q898943",
+  "label": "biosafety level",
+  "parent": "Q5962346"
+},{
+  "id": "Q972090",
+  "label": "Root directory",
+  "parent": "Q201456"
+},{
+  "id": "Q1006160",
+  "label": "gazetteer",
+  "parent": "Q732577"
+},{
+  "id": "Q1006160",
+  "label": "gazetteer",
+  "parent": "Q2352616"
+},{
+  "id": "Q1045785",
+  "label": "semantic network",
+  "parent": "Q6423319"
+},{
+  "id": "Q1062352",
+  "label": "video game content rating system",
+  "parent": "Q5962346"
+},{
+  "id": "Q1192539",
+  "label": "medical terminology",
+  "parent": "Q11190"
+},{
+  "id": "Q1192539",
+  "label": "medical terminology",
+  "parent": "Q8380731"
+},{
+  "id": "Q1207369",
+  "label": "decimal classification",
+  "parent": "Q5962346"
+},{
+  "id": "Q1371849",
+  "label": "filmography",
+  "parent": "Q2560570"
+},{
+  "id": "Q1391116",
+  "label": "subject bibliography",
+  "parent": "Q134995"
+},{
+  "id": "Q1394657",
+  "label": "company register",
+  "parent": "Q1428914"
+},{
+  "id": "Q1400059",
+  "label": "Urbarium",
+  "parent": "Q2352616"
+},{
+  "id": "Q1404150",
+  "label": "rock",
+  "parent": "Q736917"
+},{
+  "id": "Q1413174",
+  "label": "Ōtabumi",
+  "parent": "Q672598"
+},{
+  "id": "Q1428914",
+  "label": "Q1428914",
+  "parent": "Q2352616"
+},{
+  "id": "Q1502102",
+  "label": "genetic climate classification",
+  "parent": "Q267474"
+},{
+  "id": "Q1744558",
+  "label": "equestrian sports classification",
+  "parent": "Q1744559"
+},{
+  "id": "Q1744559",
+  "label": "classification in sports",
+  "parent": "Q5962346"
+},{
+  "id": "Q1744628",
+  "label": "statistical classification",
+  "parent": "Q5962346"
+},{
+  "id": "Q1915979",
+  "label": "medal table",
+  "parent": "Q2352616"
+},{
+  "id": "Q2038458",
+  "label": "Q2038458",
+  "parent": "Q2352616"
+},{
+  "id": "Q2092603",
+  "label": "member",
+  "parent": "Q3550897"
+},{
+  "id": "Q2249973",
+  "label": "Q2249973",
+  "parent": "Q2352616"
+},{
+  "id": "Q2352616",
+  "label": "catalog",
+  "parent": "Q386724"
+},{
+  "id": "Q2352616",
+  "label": "catalog",
+  "parent": "Q6423319"
+},{
+  "id": "Q2352616",
+  "label": "catalog",
+  "parent": "Q12139612"
+},{
+  "id": "Q2404232",
+  "label": "nosography",
+  "parent": "Q863247"
+},{
+  "id": "Q2560570",
+  "label": "thematic catalog",
+  "parent": "Q2352616"
+},{
+  "id": "Q2621880",
+  "label": "Q2621880",
+  "parent": "Q11398"
+},{
+  "id": "Q2976602",
+  "label": "Industry classification",
+  "parent": "Q5333554"
+},{
+  "id": "Q2976606",
+  "label": "Phylogenetic nomenclature",
+  "parent": "Q522190"
+},{
+  "id": "Q3112318",
+  "label": "Geopolitical ontology",
+  "parent": "Q324254"
+},{
+  "id": "Q3232092",
+  "label": "television content rating system",
+  "parent": "Q5165090"
+},{
+  "id": "Q3346024",
+  "label": "Nuancier",
+  "parent": "Q2352616"
+},{
+  "id": "Q3518464",
+  "label": "Medical classification",
+  "parent": "Q5962346"
+},{
+  "id": "Q3550897",
+  "label": "lithostratigraphic unit",
+  "parent": "Q5962346"
+},{
+  "id": "Q3882785",
+  "label": "Upper ontology",
+  "parent": "Q324254"
+},{
+  "id": "Q3890208",
+  "label": "Olympic medal table",
+  "parent": "Q1915979"
+},{
+  "id": "Q5051330",
+  "label": "catalogue of classical compositions",
+  "parent": "Q2560570"
+},{
+  "id": "Q5051330",
+  "label": "catalogue of classical compositions",
+  "parent": "Q6941730"
+},{
+  "id": "Q5165090",
+  "label": "content rating system",
+  "parent": "Q5962346"
+},{
+  "id": "Q5333554",
+  "label": "economic taxonomy",
+  "parent": "Q5962346"
+},{
+  "id": "Q5567629",
+  "label": "Glen Canyon Group",
+  "parent": "Q736917"
+},{
+  "id": "Q5962346",
+  "label": "classification",
+  "parent": "Q6423319"
+},{
+  "id": "Q6423319",
+  "label": "knowledge organization system",
+  "parent": "Q58778"
+},{
+  "id": "Q6503924",
+  "label": "Chemical nomenclature",
+  "parent": "Q863247"
+},{
+  "id": "Q6941730",
+  "label": "Music catalog",
+  "parent": "Q2560570"
+},{
+  "id": "Q7247296",
+  "label": "Process ontology",
+  "parent": "Q324254"
+},{
+  "id": "Q7452453",
+  "label": "sequence",
+  "parent": "Q3550897"
+},{
+  "id": "Q7977959",
+  "label": "Weak ontology",
+  "parent": "Q324254"
+},{
+  "id": "Q8380731",
+  "label": "terminology",
+  "parent": "Q42240"
+},{
+  "id": "Q8380731",
+  "label": "terminology",
+  "parent": "Q6423319"
+},{
+  "id": "Q11755860",
+  "label": "subgroup",
+  "parent": "Q3550897"
+},{
+  "id": "Q11755878",
+  "label": "member",
+  "parent": "Q736917"
+},{
+  "id": "Q12758989",
+  "label": "stratum",
+  "parent": "Q3550897"
+},{
+  "id": "Q14775294",
+  "label": "motion picture rating system",
+  "parent": "Q5165090"
+},{
+  "id": "Q15101896",
+  "label": "asteroid classification",
+  "parent": "Q1744628"
+},{
+  "id": "Q16101780",
+  "label": "population register",
+  "parent": "Q1773882"
+},{
+  "id": "Q16101780",
+  "label": "population register",
+  "parent": "Q2352616"
+},{
+  "id": "Q16832380",
+  "label": "recording catalog",
+  "parent": "Q2352616"
+},{
+  "id": "Q16861376",
+  "label": "military casualty classification",
+  "parent": "Q5962346"
+},{
+  "id": "Q16928212",
+  "label": "index",
+  "parent": "Q1632297"
+},{
+  "id": "Q16928212",
+  "label": "index",
+  "parent": "Q2352616"
+},{
+  "id": "Q17080472",
+  "label": "weight class",
+  "parent": "Q1744559"
+},{
+  "id": "Q17438413",
+  "label": "videography",
+  "parent": "Q1371849"
+},{
+  "id": "Q17438413",
+  "label": "videography",
+  "parent": "Q2560570"
+},{
+  "id": "Q18762344",
+  "label": "age category in athletics",
+  "parent": "Q1744559"
+},{
+  "id": "Q19915239",
+  "label": "Taxonomy of birds",
+  "parent": "Q11398"
+},{
+  "id": "Q20202269",
+  "label": "Music terminology",
+  "parent": "Q193544"
+},{
+  "id": "Q20202269",
+  "label": "Music terminology",
+  "parent": "Q8380731"
+},{
+  "id": "Q21126234",
+  "label": "birth registry",
+  "parent": "Q254213"
+},{
+  "id": "Q21126234",
+  "label": "birth registry",
+  "parent": "Q2399307"
+},{
+  "id": "Q21473954",
+  "label": "effective climate classification",
+  "parent": "Q267474"
+},{
+  "id": "Q22692845",
+  "label": "Terminology registry",
+  "parent": "Q2352616"
+},{
+  "id": "Q82337",
+  "label": "Portland limestone",
+  "parent": "Q23757"
+},{
+  "id": "Q82337",
+  "label": "Portland limestone",
+  "parent": "Q11755878"
+},{
+  "id": "Q249083",
+  "label": "asteroid family",
+  "parent": "Q15101896"
+},{
+  "id": "Q806617",
+  "label": "bed",
+  "parent": "Q11755878"
+},{
+  "id": "Q1520639",
+  "label": "Wrestling weight classes",
+  "parent": "Q17080472"
+},{
+  "id": "Q1750705",
+  "label": "asteroid spectral type",
+  "parent": "Q15101896"
+},{
+  "id": "Q1774225",
+  "label": "Climbing rock",
+  "parent": "Q1076486"
+},{
+  "id": "Q1774225",
+  "label": "Climbing rock",
+  "parent": "Q1404150"
+},{
+  "id": "Q2332332",
+  "label": "minor-planet group",
+  "parent": "Q15101896"
+},{
+  "id": "Q3560977",
+  "label": "film distribution certificate",
+  "parent": "Q374814"
+},{
+  "id": "Q3560977",
+  "label": "film distribution certificate",
+  "parent": "Q14775294"
+},{
+  "id": "Q12899355",
+  "label": "SMASS classification",
+  "parent": "Q15101896"
+},{
+  "id": "Q20826683",
+  "label": "IUPAC chemical nomenclature",
+  "parent": "Q6503924"
+} ]
