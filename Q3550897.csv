@@ -1,0 +1,15 @@
+level,id,label
+,Q3550897,"lithostratigraphic unit"
+-,Q11755860,subgroup
+-,Q12758989,stratum
+-,Q2092603,member
+-,Q736917,formation
+--,Q11755878,member
+---,Q806617,bed
+---,Q82337,"Portland limestone"
+--,Q1404150,rock
+---,Q1774225,"Climbing rock"
+--,Q358877,cavus
+--,Q5567629,"Glen Canyon Group"
+-,Q7452453,sequence
+-,Q824979,group
