@@ -2,6 +2,7 @@ level,id,label
 ,Q6423319,"knowledge organization system"
 -,Q1045785,"semantic network"
 -,Q1172480,"data model"
+--,Q1147639,"Data dictionary"
 --,Q1662581,"Information model"
 --,Q16948124,"Logical schema"
 --,Q17146953,"Logical data model"
@@ -40,6 +41,7 @@ level,id,label
 --,Q254213,"civil registry"
 ---,Q21126234,"birth registry"
 --,Q2560570,"thematic catalog"
+---,Q1050259,"catalogue raisonné"
 ---,Q1371849,filmography
 ----,Q17438413,videography
 ===,Q17438413,videography
@@ -74,10 +76,6 @@ level,id,label
 --,Q3808854,"Slang dictionary"
 --,Q4750851,"Anagram dictionary"
 --,Q521983,"etymological dictionary"
---,Q5292,encyclopedia
----,Q13419255,Q13419255
----,Q1525071,"universal encyclopedia"
----,Q615699,"Internet encyclopedia"
 --,Q5805540,Q5805540
 --,Q5988830,"Idiom dictionary"
 --,Q6486734,"Language for specific purposes dictionary"
