@@ -1,150 +1,166 @@
-level,id,label
-,Q6423319,"knowledge organization system"
--,Q1045785,"semantic network"
--,Q1172480,"data model"
---,Q1147639,"Data dictionary"
---,Q1662581,"Information model"
---,Q16948124,"Logical schema"
---,Q17146953,"Logical data model"
---,Q2262868,"Domain model"
---,Q2268965,"conceptual schema"
---,Q267136,"database model"
---,Q5227322,"GIS data model"
----,Q5227321,"ArcGIS data model"
---,Q5532670,"Generic data model"
---,Q7449052,"Semantic data model"
---,Q7598341,"Standard data model"
---,Q7995661,"White pages schema"
--,Q1634555,"Conceptual model (computer science)"
-==,Q2262868,"Domain model"
-==,Q7449052,"Semantic data model"
--,Q1673963,"synonym ring"
--,Q17152639,thesaurus
--,Q2352616,catalog
---,Q1006160,gazetteer
---,Q134995,bibliography
----,Q1391116,"subject bibliography"
---,Q1400059,Urbarium
---,Q1428914,"business register"
----,Q1394657,"company register"
---,Q16101780,"population register"
---,Q16832380,"recording catalog"
---,Q16928212,index
---,Q1915979,"medal table"
----,Q3890208,"Olympic medal table"
---,Q201456,directory
----,Q21014016,Q21014016
---,Q2038458,"product catalog"
---,Q220393,"telephone directory"
---,Q2249973,Q2249973
---,Q22692845,"Terminology registry"
---,Q254213,"civil registry"
----,Q21126234,"birth registry"
---,Q2560570,"thematic catalog"
----,Q1050259,"catalogue raisonné"
----,Q1371849,filmography
-----,Q17438413,videography
-===,Q17438413,videography
----,Q273057,discography
----,Q5051330,"catalogue of classical compositions"
----,Q605175,"astronomical catalog"
-----,Q850950,"star catalogue"
----,Q6941730,"Music catalog"
-====,Q5051330,"catalogue of classical compositions"
---,Q327349,"web directory"
---,Q3346024,Nuancier
----,Q369074,"RAL color system"
---,Q36524,"authority control"
---,Q367035,"address book"
---,Q672598,"land registration"
----,Q1413174,"Ōtabumi"
---,Q780605,"exhibition catalogue"
---,Q856638,"library catalog"
---,Q897682,"Business directory"
--,Q23622,dictionary
---,Q1304223,"Reverse dictionary"
---,Q1327461,"Machine-readable dictionary"
----,Q3327521,"online dictionary"
-----,Q22001389,"Wiktionary language edition"
---,Q15192747,"defining vocabulary"
---,Q17094463,"Multi-field dictionary"
---,Q2191807,"Rime dictionary"
---,Q2210568,"Rhyming dictionary"
---,Q2361647,"Conceptual dictionary"
---,Q2640207,"bilingual dictionary"
---,Q378914,"orthographic dictionary"
---,Q3808854,"Slang dictionary"
---,Q4750851,"Anagram dictionary"
---,Q521983,"etymological dictionary"
---,Q5805540,Q5805540
---,Q5988830,"Idiom dictionary"
---,Q6486734,"Language for specific purposes dictionary"
---,Q6806507,"Medical dictionary"
---,Q7187214,"Phonetic dictionary"
---,Q7191193,"Picture dictionary"
---,Q7523718,"Single-field dictionary"
---,Q7574915,"Specialized dictionary"
---,Q7630614,"Sub-field dictionary"
---,Q8096,lexicon
---,Q859161,glossary
---,Q861712,"Visual dictionary"
---,Q897755,"Explanatory dictionary"
----,Q6901667,"Monolingual learner's dictionary"
---,Q975413,"encyclopedic dictionary"
----,Q1787111,"biographical encyclopedia"
--,Q2623243,"conceptual model"
---,Q477538,"Systems architecture"
---,Q652594,"Hierarchical temporal memory"
--,Q324254,ontology
---,Q3112318,"Geopolitical ontology"
---,Q3882785,"Upper ontology"
---,Q7247296,"Process ontology"
---,Q7554009,"Soft ontology"
---,Q7977959,"Weak ontology"
-=,Q36524,"authority control"
--,Q5962346,classification
---,Q1062352,"video game content rating system"
---,Q11398,"biological classification"
----,Q19915239,"taxonomy of birds"
----,Q2621880,Q2621880
---,Q1207369,"decimal classification"
---,Q16861376,"military casualty classification"
---,Q1744559,"classification in sports"
----,Q17080472,"weight class"
-----,Q1520639,"wrestling weight classes"
----,Q1744558,"equestrian sports classification"
----,Q18762344,"age category in athletics"
----,Q438958,"age category in soccer"
----,Q893182,"olympic sailing class"
---,Q1744628,"statistical classification"
----,Q15101896,"asteroid classification"
-----,Q1750705,"asteroid spectral type"
-----,Q2332332,"minor-planet group"
-----,Q249083,"asteroid family"
----,Q179600,"stellar classification"
----,Q302088,"document classification"
---,Q192625,"linguistic typology"
----,Q257885,"word order"
---,Q267474,"climate classification"
----,Q1502102,"genetic climate classification"
----,Q21473954,"effective climate classification"
---,Q3518464,"medical classification"
---,Q48473,"library classification"
---,Q5165090,"content rating system"
----,Q14775294,"motion picture rating system"
-----,Q3560977,"film distribution certificate"
----,Q3232092,"television content rating system"
---,Q5333554,"economic taxonomy"
----,Q2976602,"industry classification"
----,Q828962,"job classification system"
---,Q732744,"chemical classification"
--,Q8380731,terminology
---,Q1192539,"medical terminology"
---,Q20202269,"music terminology"
---,Q863247,nomenclature
----,Q2404232,nosography
----,Q522190,"biological nomenclature"
-----,Q2976606,"phylogenetic nomenclature"
-----,Q864016,Q864016
----,Q6503924,"chemical nomenclature"
-----,Q20826683,"IUPAC chemical nomenclature"
+level,item,label,size
+,Q6423319,"knowledge organization system",1
+-,Q1045785,"semantic network",3
+-,Q1172480,"data model",4
+--,Q1147639,"Data dictionary",0
+--,Q1662581,"Information model",0
+--,Q16948124,"Logical schema",0
+--,Q17146953,"Logical data model",0
+--,Q2262868,"Domain model",0
+--,Q2268965,"conceptual schema",0
+--,Q267136,"database model",3
+--,Q5227322,"GIS data model",0
+---,Q5227321,"ArcGIS data model",0
+--,Q5532670,"Generic data model",0
+--,Q7449052,"Semantic data model",0
+--,Q7598341,"Standard data model",0
+--,Q7995661,"White pages schema",0
+-,Q1469824,"controlled vocabulary",3
+--,Q17152639,thesaurus,4
+-,Q1634555,"Conceptual model (computer science)",0
+==,Q2262868,"Domain model",0
+==,Q7449052,"Semantic data model",0
+-,Q1673963,"synonym ring",0
+-,Q2352616,catalog,46
+--,Q1006160,gazetteer,0
+--,Q134995,bibliography,61
+---,Q1391116,"subject bibliography",0
+--,Q1400059,Urbarium,2
+--,Q1428914,"business register",1
+---,Q1394657,"company register",9
+--,Q16101780,"population register",0
+--,Q16832380,"recording catalog",0
+--,Q16928212,index,3
+--,Q1915979,"medal table",80
+---,Q3890208,"Olympic medal table",54
+--,Q201456,directory,3
+---,Q21014016,Q21014016,0
+--,Q2038458,"product catalog",0
+--,Q220393,"telephone directory",1
+--,Q2249973,Q2249973,0
+--,Q22692845,"Terminology registry",2
+--,Q254213,"civil registry",2
+---,Q21126234,"birth registry",0
+--,Q2560570,"thematic catalog",8
+---,Q1050259,"catalogue raisonné",44
+---,Q1371849,filmography,684
+----,Q17438413,videography,14
+===,Q17438413,videography,14
+---,Q273057,discography,5500
+---,Q5051330,"catalogue of classical compositions",14
+---,Q605175,"astronomical catalog",27
+----,Q850950,"star catalogue",18
+---,Q6941730,"Music catalog",1
+====,Q5051330,"catalogue of classical compositions",14
+--,Q327349,"web directory",2
+--,Q3346024,Nuancier,1
+---,Q369074,"RAL color system",0
+--,Q36524,"authority control",38
+--,Q367035,"address book",1
+--,Q672598,"land registration",4
+---,Q1413174,"Ōtabumi",0
+--,Q780605,"exhibition catalogue",7
+--,Q856638,"library catalog",18
+--,Q897682,"Business directory",0
+-,Q23622,dictionary,167
+--,Q1304223,"Reverse dictionary",0
+--,Q1327461,"Machine-readable dictionary",0
+---,Q3327521,"online dictionary",7
+----,Q22001389,"Wiktionary language edition",7
+--,Q15192747,"defining vocabulary",0
+--,Q17094463,"Multi-field dictionary",0
+--,Q179797,thesaurus,9
+===,Q17152639,thesaurus,4
+--,Q2191807,"Rime dictionary",4
+--,Q2210568,"Rhyming dictionary",0
+--,Q2361647,"Conceptual dictionary",0
+--,Q2640207,"bilingual dictionary",2
+--,Q378914,"orthographic dictionary",0
+--,Q3808854,"Slang dictionary",1
+--,Q4750851,"Anagram dictionary",0
+--,Q521983,"etymological dictionary",1
+--,Q5805540,Q5805540,0
+--,Q5988830,"Idiom dictionary",0
+--,Q6486734,"Language for specific purposes dictionary",0
+--,Q6806507,"Medical dictionary",1
+--,Q7187214,"Phonetic dictionary",0
+--,Q7191193,"Picture dictionary",0
+--,Q7523718,"Single-field dictionary",0
+--,Q7574915,"Specialized dictionary",0
+--,Q7630614,"Sub-field dictionary",0
+--,Q8096,lexicon,5
+--,Q859161,glossary,12
+--,Q861712,"Visual dictionary",0
+--,Q897755,"Explanatory dictionary",4
+---,Q6901667,"Monolingual learner's dictionary",0
+--,Q975413,"encyclopedic dictionary",37
+---,Q1787111,"biographical encyclopedia",51
+-,Q2623243,"conceptual model",3
+--,Q477538,"Systems architecture",1
+--,Q652594,"Hierarchical temporal memory",0
+-,Q324254,ontology,25
+--,Q3112318,"Geopolitical ontology",0
+--,Q3882785,"Upper ontology",6
+--,Q7247296,"Process ontology",0
+--,Q7554009,"Soft ontology",0
+--,Q7977959,"Weak ontology",0
+=,Q36524,"authority control",38
+-,Q494291,folksonomy,0
+-,Q5962346,classification,58
+--,Q1062352,"video game content rating system",7
+--,Q11398,"biological classification",8
+---,Q19915239,"taxonomy of birds",0
+---,Q2621880,Q2621880,0
+--,Q1207369,"decimal classification",1
+--,Q1391014,"Faceted classification",0
+--,Q16861376,"military casualty classification",6
+--,Q1744559,"classification in sports",19
+---,Q17080472,"weight class",3
+----,Q1520639,"wrestling weight classes",0
+---,Q1744558,"equestrian sports classification",0
+---,Q18762344,"age category in athletics",5
+---,Q438958,"age category in soccer",0
+---,Q893182,"olympic sailing class",3
+--,Q1744628,"statistical classification",0
+---,Q15101896,"asteroid classification",3
+----,Q1750705,"asteroid spectral type",19
+----,Q2332332,"minor-planet group",1
+----,Q249083,"asteroid family",82
+---,Q179600,"stellar classification",25
+---,Q302088,"document classification",0
+--,Q192625,"linguistic typology",1
+---,Q257885,"word order",0
+--,Q24243801,"universal classification",5
+--,Q267474,"climate classification",1
+---,Q1502102,"genetic climate classification",1
+---,Q21473954,"effective climate classification",2
+--,Q2748242,"musical instrument classification",1
+--,Q3518464,"medical classification",8
+--,Q48473,"library classification",15
+--,Q5165090,"content rating system",12
+---,Q14775294,"motion picture rating system",8
+----,Q3560977,"film distribution certificate",0
+---,Q3232092,"television content rating system",1
+--,Q5172500,"Corporate taxonomy",0
+--,Q5333554,"economic taxonomy",0
+---,Q2976602,"industry classification",18
+---,Q828962,"job classification system",5
+--,Q6857882,"military taxonomy",0
+--,Q7211,taxonomy,12
+---,Q8267601,"numerical taxonomy",0
+---,Q8269924,taxonomy,7
+----,Q1138178,"plant taxonomy",0
+----,Q3310776,"botanical nomenclature",1
+----,Q3343211,"zoological nomenclature",2
+--,Q732744,"chemical classification",0
+--,Q7398671,"Safety taxonomy",0
+-,Q8380731,terminology,3
+--,Q1192539,"medical terminology",6
+--,Q20202269,"music terminology",9
+--,Q863247,nomenclature,5
+---,Q2404232,nosography,1
+---,Q522190,"biological nomenclature",13
+----,Q2976606,"phylogenetic nomenclature",0
+----,Q864016,Q864016,0
+---,Q6503924,"chemical nomenclature",3
+----,Q20826683,"IUPAC chemical nomenclature",3
