@@ -1,7 +1,7 @@
 level,item,label,size
 ,Q6423319,"knowledge organization system",1
 -,Q1045785,"semantic network",3
--,Q1172480,"data model",4
+-,Q1172480,"data model",5
 --,Q1147639,"Data dictionary",0
 --,Q1662581,"Information model",0
 --,Q16948124,"Logical schema",0
@@ -15,20 +15,25 @@ level,item,label,size
 --,Q7449052,"Semantic data model",0
 --,Q7598341,"Standard data model",0
 --,Q7995661,"White pages schema",0
--,Q1469824,"controlled vocabulary",3
+-,Q1469824,"controlled vocabulary",4
 --,Q17152639,thesaurus,4
 -,Q1634555,"Conceptual model (computer science)",0
 ==,Q2262868,"Domain model",0
 ==,Q7449052,"Semantic data model",0
 -,Q1673963,"synonym ring",0
+-,Q2005002,"Numbering scheme",0
 -,Q2352616,catalog,46
 --,Q1006160,gazetteer,0
---,Q134995,bibliography,61
----,Q1391116,"subject bibliography",0
 --,Q1400059,Urbarium,2
 --,Q1428914,"business register",1
 ---,Q1394657,"company register",9
 --,Q16101780,"population register",0
+--,Q1631107,bibliography,603
+---,Q1391116,"subject bibliography",0
+---,Q1609353,"National bibliography",1
+---,Q1609504,"Regional bibliography",10
+---,Q4769616,"Annotated bibliography",0
+---,Q856638,"library catalog",18
 --,Q16832380,"recording catalog",0
 --,Q16928212,index,3
 --,Q1915979,"medal table",80
@@ -46,10 +51,8 @@ level,item,label,size
 ---,Q1371849,filmography,684
 ----,Q17438413,videography,14
 ===,Q17438413,videography,14
----,Q273057,discography,5500
+---,Q273057,discography,5501
 ---,Q5051330,"catalogue of classical compositions",14
----,Q605175,"astronomical catalog",27
-----,Q850950,"star catalogue",18
 ---,Q6941730,"Music catalog",1
 ====,Q5051330,"catalogue of classical compositions",14
 --,Q327349,"web directory",2
@@ -57,10 +60,12 @@ level,item,label,size
 ---,Q369074,"RAL color system",0
 --,Q36524,"authority control",38
 --,Q367035,"address book",1
+--,Q605175,"astronomical catalog",27
+---,Q850950,"star catalogue",18
 --,Q672598,"land registration",4
 ---,Q1413174,"Ōtabumi",0
 --,Q780605,"exhibition catalogue",7
---,Q856638,"library catalog",18
+==,Q856638,"library catalog",18
 --,Q897682,"Business directory",0
 -,Q23622,dictionary,167
 --,Q1304223,"Reverse dictionary",0
@@ -93,8 +98,8 @@ level,item,label,size
 --,Q861712,"Visual dictionary",0
 --,Q897755,"Explanatory dictionary",4
 ---,Q6901667,"Monolingual learner's dictionary",0
---,Q975413,"encyclopedic dictionary",37
----,Q1787111,"biographical encyclopedia",51
+--,Q975413,"encyclopedic dictionary",38
+---,Q1787111,"biographical encyclopedia",49
 -,Q2623243,"conceptual model",3
 --,Q477538,"Systems architecture",1
 --,Q652594,"Hierarchical temporal memory",0
@@ -106,21 +111,8 @@ level,item,label,size
 --,Q7977959,"Weak ontology",0
 =,Q36524,"authority control",38
 -,Q494291,folksonomy,0
--,Q5962346,classification,58
---,Q1062352,"video game content rating system",7
---,Q11398,"biological classification",8
----,Q19915239,"taxonomy of birds",0
----,Q2621880,Q2621880,0
---,Q1207369,"decimal classification",1
+-,Q5962346,classification,57
 --,Q1391014,"Faceted classification",0
---,Q16861376,"military casualty classification",6
---,Q1744559,"classification in sports",19
----,Q17080472,"weight class",3
-----,Q1520639,"wrestling weight classes",0
----,Q1744558,"equestrian sports classification",0
----,Q18762344,"age category in athletics",5
----,Q438958,"age category in soccer",0
----,Q893182,"olympic sailing class",3
 --,Q1744628,"statistical classification",0
 ---,Q15101896,"asteroid classification",3
 ----,Q1750705,"asteroid spectral type",19
@@ -130,29 +122,39 @@ level,item,label,size
 ---,Q302088,"document classification",0
 --,Q192625,"linguistic typology",1
 ---,Q257885,"word order",0
---,Q24243801,"universal classification",5
---,Q267474,"climate classification",1
----,Q1502102,"genetic climate classification",1
----,Q21473954,"effective climate classification",2
---,Q2748242,"musical instrument classification",1
---,Q3518464,"medical classification",8
---,Q48473,"library classification",15
---,Q5165090,"content rating system",12
----,Q14775294,"motion picture rating system",8
-----,Q3560977,"film distribution certificate",0
----,Q3232092,"television content rating system",1
+--,Q24243801,"universal classification",12
+--,Q24249534,"specialized classification",5
+---,Q1062352,"video game content rating system",7
+---,Q11398,"biological classification",8
+----,Q19915239,"taxonomy of birds",0
+----,Q2621880,Q2621880,0
+---,Q16861376,"military casualty classification",6
+---,Q1744559,"classification in sports",19
+----,Q17080472,"weight class",3
+-----,Q1520639,"wrestling weight classes",0
+----,Q1744558,"equestrian sports classification",0
+----,Q18762344,"age category in athletics",5
+----,Q438958,"age category in soccer",0
+----,Q893182,"olympic sailing class",3
+---,Q267474,"climate classification",1
+----,Q1502102,"genetic climate classification",1
+----,Q21473954,"effective climate classification",2
+---,Q2748242,"musical instrument classification",1
+---,Q3518464,"medical classification",8
+---,Q6857882,"military taxonomy",0
+---,Q732744,"chemical classification",3
+--,Q48473,"library classification",19
+---,Q1207369,"decimal classification",1
 --,Q5172500,"Corporate taxonomy",0
 --,Q5333554,"economic taxonomy",0
 ---,Q2976602,"industry classification",18
 ---,Q828962,"job classification system",5
---,Q6857882,"military taxonomy",0
 --,Q7211,taxonomy,12
 ---,Q8267601,"numerical taxonomy",0
 ---,Q8269924,taxonomy,7
 ----,Q1138178,"plant taxonomy",0
 ----,Q3310776,"botanical nomenclature",1
 ----,Q3343211,"zoological nomenclature",2
---,Q732744,"chemical classification",0
 --,Q7398671,"Safety taxonomy",0
 -,Q8380731,terminology,3
 --,Q1192539,"medical terminology",6
