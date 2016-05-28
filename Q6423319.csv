@@ -11,7 +11,7 @@ level,item,label,size
 --,Q267136,"database model",3
 --,Q5227322,"GIS data model",0
 ---,Q5227321,"ArcGIS data model",0
---,Q5532670,"Generic data model",0
+--,Q5532670,"generic data model",0
 --,Q7449052,"Semantic data model",0
 --,Q7598341,"Standard data model",0
 --,Q7995661,"White pages schema",0
@@ -29,12 +29,23 @@ level,item,label,size
 ---,Q1394657,"company register",9
 --,Q16101780,"population register",0
 --,Q1631107,bibliography,603
+---,Q1050259,"catalogue raisonné",44
+---,Q1371849,filmography,684
+----,Q17438413,videography,14
 ---,Q1391116,"subject bibliography",0
----,Q1609353,"National bibliography",1
----,Q1609504,"Regional bibliography",10
----,Q4769616,"Annotated bibliography",0
+---,Q1569406,playlist,0
+---,Q1609353,"national bibliography",1
+---,Q1609504,"regional bibliography",10
+---,Q2033233,"bibliographic index",0
+----,Q1789476,"bibliographic database",38
+-----,Q206290,"citation index",0
+---,Q2560570,"thematic catalog",8
+---,Q273057,discography,5501
+---,Q4769616,"annotated bibliography",0
+---,Q5051330,"catalogue of classical compositions",14
+---,Q6822329,Metabibliography,0
+---,Q6941730,"music catalog",3
 ---,Q856638,"library catalog",18
---,Q16832380,"recording catalog",0
 --,Q16928212,index,3
 --,Q1915979,"medal table",80
 ---,Q3890208,"Olympic medal table",54
@@ -46,15 +57,6 @@ level,item,label,size
 --,Q22692845,"terminology registry",2
 --,Q254213,"civil registry",2
 ---,Q21126234,"birth registry",0
---,Q2560570,"thematic catalog",8
----,Q1050259,"catalogue raisonné",44
----,Q1371849,filmography,684
-----,Q17438413,videography,14
-===,Q17438413,videography,14
----,Q273057,discography,5501
----,Q5051330,"catalogue of classical compositions",14
----,Q6941730,"Music catalog",1
-====,Q5051330,"catalogue of classical compositions",14
 --,Q327349,"web directory",2
 --,Q3346024,Nuancier,1
 ---,Q369074,"RAL color system",0
@@ -98,7 +100,7 @@ level,item,label,size
 --,Q897755,"Explanatory dictionary",4
 ---,Q6901667,"Monolingual learner's dictionary",0
 --,Q975413,"encyclopedic dictionary",38
----,Q1787111,"biographical encyclopedia",49
+---,Q1787111,"biographical encyclopedia",50
 -,Q2623243,"conceptual model",3
 --,Q477538,"Systems architecture",1
 --,Q652594,"Hierarchical temporal memory",0
@@ -115,6 +117,7 @@ level,item,label,size
 --,Q24249534,"specialized classification scheme",6
 ---,Q1062352,"video game content rating system",7
 ---,Q11398,"biological classification",8
+----,Q1138178,"plant taxonomy",0
 ----,Q19915239,"taxonomy of birds",0
 ----,Q2621880,syntaxonomy,0
 ---,Q15101896,"asteroid classification",3
@@ -146,14 +149,12 @@ level,item,label,size
 --,Q48473,"library classification",19
 =,Q36524,"authority control",36
 -,Q5962346,classification,57
---,Q1744628,"statistical classification",0
----,Q302088,"document classification",0
 --,Q192625,"linguistic typology",1
 ---,Q257885,"word order",0
 --,Q7211,taxonomy,12
 ---,Q8267601,"numerical taxonomy",0
 ---,Q8269924,taxonomy,7
-----,Q1138178,"plant taxonomy",0
+====,Q1138178,"plant taxonomy",0
 ----,Q3310776,"botanical nomenclature",1
 ----,Q3343211,"zoological nomenclature",2
 -,Q8380731,terminology,3
@@ -162,7 +163,9 @@ level,item,label,size
 --,Q494291,folksonomy,0
 --,Q863247,nomenclature,5
 ---,Q2404232,nosography,1
----,Q522190,"biological nomenclature",13
+---,Q522190,"biological nomenclature",12
 ----,Q2976606,"phylogenetic nomenclature",0
+====,Q3310776,"botanical nomenclature",1
+====,Q3343211,"zoological nomenclature",2
 ---,Q6503924,"chemical nomenclature",3
 ----,Q20826683,"IUPAC chemical nomenclature",3
