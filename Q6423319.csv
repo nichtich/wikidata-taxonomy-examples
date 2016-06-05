@@ -9,18 +9,21 @@ level,item,label,size
 --,Q2262868,"Domain model",0
 --,Q2268965,"conceptual schema",0
 --,Q267136,"database model",3
+--,Q5033354,"Canonical Model",0
 --,Q5227322,"GIS data model",0
 ---,Q5227321,"ArcGIS data model",0
 --,Q5532670,"generic data model",0
 --,Q7449052,"Semantic data model",0
 --,Q7598341,"Standard data model",0
 --,Q7995661,"White pages schema",0
--,Q1469824,"controlled vocabulary",8
---,Q17152639,thesaurus,5
+-,Q1420493,"conceptual graph",0
+-,Q1469824,"controlled vocabulary",9
+--,Q17152639,thesaurus,6
 -,Q1634555,"Conceptual model (computer science)",0
 ==,Q2262868,"Domain model",0
 ==,Q7449052,"Semantic data model",0
 -,Q1673963,"synonym ring",0
+-,Q192833,"mind map",0
 -,Q2005002,"numbering scheme",0
 -,Q2352616,catalog,46
 --,Q1006160,gazetteer,0
@@ -30,7 +33,7 @@ level,item,label,size
 --,Q16101780,"population register",0
 --,Q1631107,bibliography,603
 ---,Q1050259,"catalogue raisonné",44
----,Q1371849,filmography,684
+---,Q1371849,filmography,683
 ----,Q17438413,videography,14
 ---,Q1391116,"subject bibliography",0
 ---,Q1569406,playlist,0
@@ -43,12 +46,14 @@ level,item,label,size
 ---,Q273057,discography,5501
 ---,Q4769616,"annotated bibliography",0
 ---,Q5051330,"catalogue of classical compositions",14
----,Q6822329,Metabibliography,0
----,Q6941730,"music catalog",3
----,Q856638,"library catalog",18
+---,Q6822329,metabibliography,0
+----,Q19220511,"list of music references",1
+---,Q6941730,"music catalog",2
+---,Q856638,"library catalog",19
 --,Q16928212,index,3
 --,Q1915979,"medal table",80
 ---,Q3890208,"Olympic medal table",54
+==,Q19220511,"list of music references",1
 --,Q201456,directory,3
 ---,Q21014016,Q21014016,0
 --,Q2038458,"product catalog",0
@@ -67,9 +72,9 @@ level,item,label,size
 --,Q672598,"land registration",4
 ---,Q1413174,"Ōtabumi",0
 --,Q780605,"exhibition catalogue",7
-==,Q856638,"library catalog",18
+==,Q856638,"library catalog",19
 --,Q897682,"Business directory",0
--,Q23622,dictionary,167
+-,Q23622,dictionary,168
 --,Q1304223,"Reverse dictionary",0
 --,Q1327461,"Machine-readable dictionary",0
 ---,Q3327521,"online dictionary",7
@@ -100,7 +105,7 @@ level,item,label,size
 --,Q897755,"Explanatory dictionary",4
 ---,Q6901667,"Monolingual learner's dictionary",0
 --,Q975413,"encyclopedic dictionary",38
----,Q1787111,"biographical encyclopedia",50
+---,Q1787111,"biographical encyclopedia",52
 -,Q2623243,"conceptual model",3
 --,Q477538,"Systems architecture",1
 --,Q652594,"Hierarchical temporal memory",0
@@ -146,18 +151,22 @@ level,item,label,size
 ----,Q16861376,"military casualty classification",6
 ---,Q732744,"chemical classification",3
 ---,Q7398671,"safety taxonomy",0
---,Q48473,"library classification",19
+--,Q48473,"library classification",21
 =,Q36524,"authority control",36
+-,Q5292,encyclopedia,256
+--,Q1525071,"universal encyclopedia",1
+--,Q615699,"internet encyclopedia",28
+==,Q975413,"encyclopedic dictionary",38
 -,Q5962346,classification,57
---,Q192625,"linguistic typology",1
----,Q257885,"word order",0
---,Q7211,taxonomy,12
+--,Q192625,"linguistic typology",2
+--,Q7211,taxonomy,11
 ---,Q8267601,"numerical taxonomy",0
 ---,Q8269924,taxonomy,7
 ====,Q1138178,"plant taxonomy",0
 ----,Q3310776,"botanical nomenclature",1
 ----,Q3343211,"zoological nomenclature",2
--,Q8380731,terminology,3
+-,Q830115,"concept map",0
+-,Q8380731,terminology,4
 --,Q1192539,"medical terminology",6
 --,Q20202269,"music terminology",9
 --,Q494291,folksonomy,0
