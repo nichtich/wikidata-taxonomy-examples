@@ -49,7 +49,8 @@ level,item,label,size
 ---,Q6822329,metabibliography,0
 ----,Q19220511,"list of music references",1
 ---,Q6941730,"music catalog",2
----,Q856638,"library catalog",19
+---,Q856638,"library catalog",18
+----,Q526334,"union catalog",7
 --,Q16928212,index,3
 --,Q1915979,"medal table",80
 ---,Q3890208,"Olympic medal table",54
@@ -72,7 +73,6 @@ level,item,label,size
 --,Q672598,"land registration",4
 ---,Q1413174,"Ōtabumi",0
 --,Q780605,"exhibition catalogue",7
-==,Q856638,"library catalog",19
 --,Q897682,"Business directory",0
 -,Q23622,dictionary,168
 --,Q1304223,"Reverse dictionary",0
@@ -115,9 +115,15 @@ level,item,label,size
 --,Q7247296,"Process ontology",0
 --,Q7554009,"Soft ontology",0
 --,Q7977959,"Weak ontology",0
--,Q3475629,"classification scheme",0
+=,Q36524,"authority control",36
+-,Q5292,encyclopedia,256
+--,Q1525071,"universal encyclopedia",1
+--,Q615699,"internet encyclopedia",28
+==,Q975413,"encyclopedic dictionary",38
+-,Q5962346,"classification scheme",57
 --,Q1207369,"decimal classification",1
 --,Q1391014,"faceted classification",1
+--,Q192625,"linguistic typology",2
 --,Q24243801,"universal classification scheme",12
 --,Q24249534,"specialized classification scheme",6
 ---,Q1062352,"video game content rating system",7
@@ -152,13 +158,6 @@ level,item,label,size
 ---,Q732744,"chemical classification",3
 ---,Q7398671,"safety taxonomy",0
 --,Q48473,"library classification",21
-=,Q36524,"authority control",36
--,Q5292,encyclopedia,256
---,Q1525071,"universal encyclopedia",1
---,Q615699,"internet encyclopedia",28
-==,Q975413,"encyclopedic dictionary",38
--,Q5962346,classification,57
---,Q192625,"linguistic typology",2
 --,Q7211,taxonomy,11
 ---,Q8267601,"numerical taxonomy",0
 ---,Q8269924,taxonomy,7
