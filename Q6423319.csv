@@ -25,8 +25,8 @@ level,item,label,size
 -,Q1673963,"synonym ring",0
 -,Q192833,"mind map",0
 -,Q2005002,"numbering scheme",0
--,Q2352616,catalog,46
---,Q1006160,gazetteer,0
+-,Q2352616,catalog,47
+--,Q1006160,gazetteer,1
 --,Q1400059,Urbarium,2
 --,Q1428914,"business register",1
 ---,Q1394657,"company register",9
@@ -43,14 +43,14 @@ level,item,label,size
 ----,Q1789476,"bibliographic database",38
 -----,Q206290,"citation index",0
 ---,Q2560570,"thematic catalog",8
----,Q273057,discography,5501
+---,Q273057,discography,5503
 ---,Q4769616,"annotated bibliography",0
 ---,Q5051330,"catalogue of classical compositions",14
 ---,Q6822329,metabibliography,0
 ----,Q19220511,"list of music references",1
 ---,Q6941730,"music catalog",2
----,Q856638,"library catalog",18
-----,Q526334,"union catalog",7
+---,Q856638,"library catalog",19
+----,Q526334,"union catalog",13
 --,Q16928212,index,3
 --,Q1915979,"medal table",80
 ---,Q3890208,"Olympic medal table",54
@@ -74,14 +74,14 @@ level,item,label,size
 ---,Q1413174,"Ōtabumi",0
 --,Q780605,"exhibition catalogue",7
 --,Q897682,"Business directory",0
--,Q23622,dictionary,168
+-,Q23622,dictionary,171
 --,Q1304223,"Reverse dictionary",0
 --,Q1327461,"Machine-readable dictionary",0
 ---,Q3327521,"online dictionary",7
 ----,Q22001389,"Wiktionary language edition",7
 --,Q15192747,"defining vocabulary",0
 --,Q17094463,"Multi-field dictionary",0
---,Q179797,thesaurus,9
+--,Q179797,thesaurus,10
 --,Q2191807,"Rime dictionary",4
 --,Q2210568,"Rhyming dictionary",0
 --,Q2361647,"Conceptual dictionary",0
@@ -110,22 +110,22 @@ level,item,label,size
 --,Q477538,"Systems architecture",1
 --,Q652594,"Hierarchical temporal memory",0
 -,Q324254,ontology,25
---,Q3112318,"Geopolitical ontology",0
 --,Q3882785,"Upper ontology",6
 --,Q7247296,"Process ontology",0
 --,Q7554009,"Soft ontology",0
 --,Q7977959,"Weak ontology",0
 =,Q36524,"authority control",36
 -,Q5292,encyclopedia,256
+--,Q13419255,"hypertext encyclopedia",5
 --,Q1525071,"universal encyclopedia",1
---,Q615699,"internet encyclopedia",28
+--,Q615699,"internet encyclopedia",29
 ==,Q975413,"encyclopedic dictionary",38
 -,Q5962346,"classification scheme",57
 --,Q1207369,"decimal classification",1
 --,Q1391014,"faceted classification",1
 --,Q192625,"linguistic typology",2
 --,Q24243801,"universal classification scheme",12
---,Q24249534,"specialized classification scheme",6
+--,Q24249534,"specialized classification scheme",7
 ---,Q1062352,"video game content rating system",7
 ---,Q11398,"biological classification",8
 ----,Q1138178,"plant taxonomy",0
