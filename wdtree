@@ -18,6 +18,7 @@ my ($input);
         'help|h|?',
         'from|f=s',
         'size|s=s',
+        'field=s',
         'dry',
     ) or pod2usage(2);
     pod2usage(1) if $opt{help};
@@ -45,11 +46,12 @@ my ($input);
     $opt{root} =~ /^Q?(\d+)$/i or pod2usage("invalid root item"); 
     $opt{root} = "Q$1";
 
-    $opt{property} =~ /^P?(\d+)$/i or pod2usage("invalid property"); 
-    $opt{property} = "P$1";
-
-    $opt{size} =~ /^P?(\d+)$/i or pod2usage("invalid size property"); 
-    $opt{size} = "P$1";
+    foreach (qw(property size field)) {
+        if (defined $opt{$_}) {
+            $opt{$_} =~ /^P?(\d+)$/i or pod2usage("invalid $_"); 
+            $opt{$_} = "P$1";
+        }
+    }
 }
 
 
@@ -62,8 +64,9 @@ if ($opt{from}) {
     my $property = $opt{property};
     my $size     = $opt{size};
 
+    my $vars = "?item ?itemLabel ?parent ?size";
 	my $sparql = <<SPARQL;
-SELECT ?item ?itemLabel ?parent ?size {
+{
   	{ 
 		SELECT ?item (count(distinct ?element) as ?size) {
 			?item wdt:$property* wd:$root
@@ -71,11 +74,20 @@ SELECT ?item ?itemLabel ?parent ?size {
 		} GROUP BY ?item 
 	}
   	OPTIONAL { ?item wdt:$property ?parent }
+SPARQL
+
+    if ($opt{field}) {
+        $sparql .= "OPTIONAL { ?item wdt:$opt{field} ?field }";
+        $vars .= " ?field";
+    }
+
+	$sparql = $sparql . <<SPARQL;
   	SERVICE wikibase:label {
 		bd:serviceParam wikibase:language "$opt{language}" .
 	}
 }
 SPARQL
+    $sparql = "SELECT $vars $sparql";
     $sparql =~ s/\n/ /mg;
     #my $cmd = "wdq -i -g$opt{language} -lid '$sparql'";
     my $cmd = "wdq -i '$sparql'";
@@ -122,6 +134,9 @@ my $csv = Text::CSV->new({ binary => 1, sep_char => ',', quote_char => '"', eol 
 open my $csvfile, '>', "$root.csv";
 binmode $csvfile, ':encoding(UTF-8)';
 
+my @fields = qw(level item label size);
+push @fields, 'field' if $opt{field}; 
+
 sub make_tree {
     my ($node, $level) = @_;
     
@@ -135,11 +150,9 @@ sub make_tree {
         $item->{level} = '-' x $level;
     }
 
-    my $fields = [ map { $item->{$_} } qw(level item label size) ];
-    
     # TODO: qualifier
     
-    $csv->print( $csvfile, $fields );
+    $csv->print( $csvfile, [ map { $item->{$_} } @fields ] );
 
     if ( $recurse ) {
         my @children = map { $_->[0] } $g->edges_to($node);
@@ -149,7 +162,7 @@ sub make_tree {
     }
 }
 
-$csv->print( $csvfile, [qw(level item label size)] );
+$csv->print( $csvfile, \@fields );
 make_tree($root);
 
 __END__
