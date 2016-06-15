@@ -8,7 +8,7 @@ level,item,label,size
 --,Q17146953,"Logical data model",0
 --,Q2262868,"Domain model",0
 --,Q2268965,"conceptual schema",0
---,Q267136,"database model",3
+--,Q267136,"database model",4
 --,Q5033354,"Canonical Model",0
 --,Q5227322,"GIS data model",0
 ---,Q5227321,"ArcGIS data model",0
@@ -18,14 +18,14 @@ level,item,label,size
 --,Q7995661,"White pages schema",0
 -,Q1420493,"conceptual graph",0
 -,Q1469824,"controlled vocabulary",9
---,Q17152639,thesaurus,6
+--,Q17152639,thesaurus,7
 -,Q1634555,"Conceptual model (computer science)",0
 ==,Q2262868,"Domain model",0
 ==,Q7449052,"Semantic data model",0
 -,Q1673963,"synonym ring",0
 -,Q192833,"mind map",0
 -,Q2005002,"numbering scheme",0
--,Q2352616,catalog,47
+-,Q2352616,catalog,114
 --,Q1006160,gazetteer,1
 --,Q1400059,Urbarium,2
 --,Q1428914,"business register",1
@@ -61,6 +61,7 @@ level,item,label,size
 --,Q220393,"telephone directory",1
 --,Q2249973,Q2249973,0
 --,Q22692845,"terminology registry",2
+---,Q3423635,"Metadata registry",0
 --,Q254213,"civil registry",2
 ---,Q21126234,"birth registry",0
 --,Q327349,"web directory",2
@@ -74,7 +75,7 @@ level,item,label,size
 ---,Q1413174,"Ōtabumi",0
 --,Q780605,"exhibition catalogue",7
 --,Q897682,"Business directory",0
--,Q23622,dictionary,171
+-,Q23622,dictionary,172
 --,Q1304223,"Reverse dictionary",0
 --,Q1327461,"Machine-readable dictionary",0
 ---,Q3327521,"online dictionary",7
@@ -115,17 +116,17 @@ level,item,label,size
 --,Q7554009,"Soft ontology",0
 --,Q7977959,"Weak ontology",0
 =,Q36524,"authority control",36
--,Q5292,encyclopedia,256
+-,Q5292,encyclopedia,257
 --,Q13419255,"hypertext encyclopedia",5
 --,Q1525071,"universal encyclopedia",1
 --,Q615699,"internet encyclopedia",29
 ==,Q975413,"encyclopedic dictionary",38
--,Q5962346,"classification scheme",57
+-,Q5962346,"classification scheme",58
 --,Q1207369,"decimal classification",1
 --,Q1391014,"faceted classification",1
 --,Q192625,"linguistic typology",2
 --,Q24243801,"universal classification scheme",12
---,Q24249534,"specialized classification scheme",7
+--,Q24249534,"specialized classification scheme",8
 ---,Q1062352,"video game content rating system",7
 ---,Q11398,"biological classification",8
 ----,Q1138178,"plant taxonomy",0

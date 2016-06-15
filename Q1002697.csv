@@ -1,6 +1,6 @@
 level,item,label,size
-,Q1002697,"periodical literature",12276
--,Q11032,newspaper,11583
+,Q1002697,"periodical literature",12274
+-,Q11032,newspaper,11589
 --,Q1110794,"daily newspaper",1432
 ---,Q142043,"free newspaper",13
 ---,Q1741521,Q1741521,0
@@ -9,7 +9,7 @@ level,item,label,size
 --,Q11389521,Q11389521,0
 --,Q11424411,Q11424411,0
 --,Q11458528,Q11458528,0
---,Q1153191,"online newspaper",40
+--,Q1153191,"online newspaper",41
 --,Q1278984,"special edition",0
 --,Q12878884,"list of Athens and Piraeus newspapers",0
 --,Q1416653,"newspaper of record",0
@@ -23,7 +23,7 @@ level,item,label,size
 --,Q2138556,"regional newspaper",3
 --,Q22981456,Q22981456,9
 ---,Q22999050,Q22999050,0
---,Q2305295,"weekly newspaper",54
+--,Q2305295,"weekly newspaper",55
 ---,Q3402495,"Sunday edition",1
 --,Q2390658,"village newspaper",0
 --,Q2497638,"youth media",3
@@ -79,7 +79,7 @@ level,item,label,size
 ---,Q6839276,"microblogging novel",0
 -,Q3129162,Q3129162,0
 -,Q3374808,"penny dreadful",0
--,Q41298,magazine,13995
+-,Q41298,magazine,14006
 --,Q1059863,"women's magazine",1
 --,Q12408563,Q12408563,1
 --,Q12902861,Q12902861,1
@@ -122,7 +122,7 @@ level,item,label,size
 --,Q416,"disk magazine",14
 --,Q4468966,Q4468966,0
 --,Q6545508,"lifestyle magazine",3
---,Q685935,"specialized periodical publication",133
+--,Q685935,"specialized periodical publication",134
 ---,Q16024164,Q16024164,5
 ---,Q3153624,Intervalles,0
 ---,Q3759091,"public journal",27
@@ -167,7 +167,7 @@ level,item,label,size
 --,Q1349569,"Human Rights Record of the United States",14
 --,Q171341,almanac,24
 --,Q699735,"annual report",2
-=,Q685935,"specialized periodical publication",133
+=,Q685935,"specialized periodical publication",134
 -,Q7620434,"story paper",1
 -,Q773668,"open-access journal",6
 --,Q5953270,"hybrid open access journal",0
