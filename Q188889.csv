@@ -1,73 +1,73 @@
-level,item,label,size
-,Q188889,code,1
--,Q184759,"character encoding",37
---,Q17042507,"Mac Icelandic encoding",0
---,Q17042510,"MacGreek encoding",0
---,Q6108264,"JIS encoding",0
---,Q777955,"Universal Character Set",0
--,Q24456226,"ICAO code",1
---,Q21562071,"ICAO airline code",0
--,Q332772,"Gray code",0
--,Q494823,"data format",28
---,Q21502404,"format constraint",0
---,Q235557,"file format",489
----,Q1056408,"open format",2
-----,Q8436198,"free format",2
----,Q1351368,"archive file format",3
-----,Q16910955,"web archive format",4
-----,Q1788708,"Solid compression",1
-----,Q4298914,volume,0
-----,Q592312,"disk image",2
------,Q877050,"ISO image",0
-====,Q877050,"ISO image",0
-----,Q943442,"Self-extracting archive",0
----,Q1572121,"image file format",5
-----,Q654383,"raw image format",2
----,Q167772,"digital container format",9
-====,Q1351368,"archive file format",3
----,Q17560478,"executable file format",6
-----,Q17560541,"exe extension associated executable fileformat",3
----,Q18359031,"Video file format",0
----,Q1955133,"music file format",0
----,Q20155966,"XML application",1
----,Q2720536,"proprietary format",3
----,Q5090461,"Chemical file format",1
----,Q5248648,"Debugging data format",0
----,Q682626,"audio file format",0
----,Q7203483,"Playlist markup language",5
-===,Q877050,"ISO image",0
---,Q24451526,"data serialization format",25
----,Q863511,"Binary XML",1
---,Q5165081,"content format",0
----,Q758871,"audio format",4
-----,Q20198105,"lossless audio coding format",7
-----,Q20198160,"lossy audio coding format",0
----,Q7927899,"video compression format",18
---,Q7302924,"recording format",0
-==,Q758871,"audio format",4
--,Q741701,"airline code",2
-==,Q21562071,"ICAO airline code",0
--,Q864135,"binary code",3
---,Q3913,"binary number",0
----,Q276582,"binary-coded decimal",1
--,Q906278,"country code",1
---,Q1140221,"ISO 3166-1 alpha-2 code",0
---,Q1341492,"ISO 3166-1 alpha-3 code",0
---,Q1394114,"NATO country code",0
---,Q1486843,"GS1 country code",0
---,Q154015,"international vehicle registration code",184
----,Q23034955,"unofficial international vehicle registration code",21
---,Q180672,"IOC country code",0
---,Q2725758,"ISO 3166-1 numeric code",0
---,Q2733492,"FIPS country code",0
---,Q31623,"mobile network code",0
---,Q34768,"country calling code",0
---,Q4596892,"CGF country code",0
---,Q5177502,"country code of Serbia",0
---,Q575156,"FIFA country code",0
---,Q597349,"UIC country code",0
---,Q6573810,"ITU letter code",0
---,Q6601212,"UNDP country code",0
---,Q978801,"mobile country code",0
--,Q93203,"2D barcode",0
---,Q12203,"QR code",0
+level,item,label,size,sites
+,Q188889,code,3,51
+-,Q184759,"character encoding",37,42
+--,Q17042507,"Mac Icelandic encoding",0,1
+--,Q17042510,"MacGreek encoding",0,1
+--,Q6108264,"JIS encoding",0,1
+--,Q777955,"Universal Character Set",0,19
+-,Q24456226,"ICAO code",1,1
+--,Q21562071,"ICAO airline code",0,0
+-,Q332772,"Gray code",0,30
+-,Q494823,"data format",28,5
+--,Q21502404,"format constraint",0,1
+--,Q235557,"file format",492,34
+---,Q1056408,"open format",2,21
+----,Q8436198,"free format",2,0
+---,Q1351368,"archive file format",3,12
+----,Q16910955,"web archive format",4,1
+----,Q1788708,"Solid compression",1,6
+----,Q4298914,volume,0,3
+----,Q592312,"disk image",2,21
+-----,Q877050,"ISO image",0,19
+====,Q877050,"ISO image",0,19
+----,Q943442,"Self-extracting archive",0,9
+---,Q1572121,"image file format",5,16
+----,Q654383,"raw image format",2,26
+---,Q167772,"digital container format",10,27
+====,Q1351368,"archive file format",3,12
+---,Q17560478,"executable file format",6,0
+----,Q17560541,"exe extension associated executable fileformat",3,0
+---,Q18359031,"Video file format",0,1
+---,Q1955133,"music file format",0,1
+---,Q20155966,"XML application",1,0
+---,Q2720536,"proprietary format",3,7
+---,Q5090461,"Chemical file format",1,2
+---,Q5248648,"Debugging data format",0,2
+---,Q682626,"audio file format",0,16
+---,Q7203483,"Playlist markup language",5,1
+===,Q877050,"ISO image",0,19
+--,Q24451526,"data serialization format",25,0
+---,Q863511,"Binary XML",1,3
+--,Q5165081,"content format",0,2
+---,Q758871,"audio format",4,10
+----,Q20198105,"lossless audio coding format",7,0
+----,Q20198160,"lossy audio coding format",0,0
+---,Q7927899,"video compression format",18,3
+--,Q7302924,"recording format",0,2
+==,Q758871,"audio format",4,10
+-,Q741701,"airline code",2,22
+==,Q21562071,"ICAO airline code",0,0
+-,Q864135,"binary code",3,22
+--,Q3913,"binary number",0,87
+---,Q276582,"binary-coded decimal",1,34
+-,Q906278,"country code",1,24
+--,Q1140221,"ISO 3166-1 alpha-2 code",0,22
+--,Q1341492,"ISO 3166-1 alpha-3 code",0,15
+--,Q1394114,"NATO country code",0,8
+--,Q1486843,"GS1 country code",0,11
+--,Q154015,"international vehicle registration code",184,17
+---,Q23034955,"unofficial international vehicle registration code",21,0
+--,Q180672,"IOC country code",0,53
+--,Q2725758,"ISO 3166-1 numeric code",0,9
+--,Q2733492,"FIPS country code",0,7
+--,Q31623,"mobile network code",0,9
+--,Q34768,"country calling code",0,98
+--,Q4596892,"CGF country code",0,2
+--,Q5177502,"country code of Serbia",0,1
+--,Q575156,"FIFA country code",0,44
+--,Q597349,"UIC country code",0,8
+--,Q6573810,"ITU letter code",0,3
+--,Q6601212,"UNDP country code",0,3
+--,Q978801,"mobile country code",0,14
+-,Q93203,"2D barcode",0,6
+--,Q12203,"QR code",0,64

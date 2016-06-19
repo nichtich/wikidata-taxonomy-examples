@@ -64,13 +64,19 @@ if ($opt{from}) {
     my $property = $opt{property};
     my $size     = $opt{size};
 
-    my $vars = "?item ?itemLabel ?parent ?size";
+    my $vars = "?item ?itemLabel ?parent ?size ?sites";
 	my $sparql = <<SPARQL;
 {
   	{ 
 		SELECT ?item (count(distinct ?element) as ?size) {
 			?item wdt:$property* wd:$root
 			OPTIONAL { ?element wdt:$size ?item }
+		} GROUP BY ?item 
+    }
+    { 
+		SELECT ?item (count(distinct ?site) as ?sites) {
+			?item wdt:$property* wd:$root
+			OPTIONAL { ?site schema:about ?item }
 		} GROUP BY ?item 
 	}
   	OPTIONAL { ?item wdt:$property ?parent }
@@ -134,7 +140,7 @@ my $csv = Text::CSV->new({ binary => 1, sep_char => ',', quote_char => '"', eol 
 open my $csvfile, '>', "$root.csv";
 binmode $csvfile, ':encoding(UTF-8)';
 
-my @fields = qw(level item label size);
+my @fields = qw(level item label size sites);
 push @fields, 'field' if $opt{field}; 
 
 sub make_tree {

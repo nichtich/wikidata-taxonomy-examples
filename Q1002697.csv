@@ -1,175 +1,174 @@
-level,item,label,size
-,Q1002697,"periodical literature",12274
--,Q11032,newspaper,11589
---,Q1110794,"daily newspaper",1432
----,Q142043,"free newspaper",13
----,Q1741521,Q1741521,0
---,Q11313190,"sports newspaper",10
---,Q11335135,"block newspaper",0
---,Q11389521,Q11389521,0
---,Q11424411,Q11424411,0
---,Q11458528,Q11458528,0
---,Q1153191,"online newspaper",41
---,Q1278984,"special edition",0
---,Q12878884,"list of Athens and Piraeus newspapers",0
---,Q1416653,"newspaper of record",0
---,Q1449648,tabloid,8
----,Q5100946,"Chinese tabloid",0
---,Q16853516,"newspapers in Romansh",0
---,Q18661033,Nykypäivä,0
---,Q1868552,"local newspaper",8
---,Q190705,zentralorgan,1
---,Q2006125,"street newspaper",1
---,Q2138556,"regional newspaper",3
---,Q22981456,Q22981456,9
----,Q22999050,Q22999050,0
---,Q2305295,"weekly newspaper",55
----,Q3402495,"Sunday edition",1
---,Q2390658,"village newspaper",0
---,Q2497638,"youth media",3
---,Q2943864,"news satire",4
---,Q3186859,"trench newspaper",1
---,Q3186988,Q3186988,5
---,Q329669,"subscription newspaper",0
---,Q3899141,"penny press",0
---,Q4736543,"alternative newspaper",4
---,Q5155035,"community paper",0
---,Q5155101,"commuter newspaper",0
---,Q5276122,"digital newspaper",0
---,Q5469882,form,0
---,Q6158891,"Japanese newspaper",0
---,Q6841189,"Middle-market newspaper",0
---,Q738377,"student newspaper",10
---,Q7426758,"Saturday sports paper",0
---,Q7531230,"sister paper",0
---,Q832165,"house journal",1
---,Q895089,"tabloid journalism",4
---,Q995205,Gefangenenzeitung,1
--,Q1327300,"electronic journal",6
---,Q15266777,"Ulam Quarterly",0
--,Q30849,blog,59
---,Q1134687,"corporate blog",0
---,Q14759031,"Travel blog",0
---,Q15292273,Q15292273,1
---,Q1826799,Linklog,0
---,Q21000776,Q21000776,0
---,Q21130352,"group blog",1
---,Q2468316,"collaborative blog",0
---,Q2539446,Q2539446,0
---,Q2617891,"Spam blog",0
---,Q2901024,Biblioblog,0
---,Q2906864,"fashion blog",1
---,Q429707,"Mobile blogging",0
---,Q4797179,"Art blog",0
---,Q498783,Warblog,0
---,Q5340829,Edublog,0
---,Q5431486,"Fake blog",0
---,Q5442871,"Feminist blog",1
---,Q5690817,"Health blog",0
---,Q674926,"video blog",0
---,Q7209566,"Police blog",1
---,Q7210258,"Political blog",0
---,Q7239010,"Prayer blog",0
---,Q7245773,"Prison blogs",0
---,Q7249390,"Project blog",0
---,Q752295,Photoblog,1
---,Q842399,"MP3 blog",1
---,Q884863,"blog fiction",0
---,Q92438,microblogging,0
----,Q6839276,"microblogging novel",0
--,Q3129162,Q3129162,0
--,Q3374808,"penny dreadful",0
--,Q41298,magazine,14006
---,Q1059863,"women's magazine",1
---,Q12408563,Q12408563,1
---,Q12902861,Q12902861,1
---,Q1391617,"trade magazine",18
----,Q4857987,"Bar journal",0
---,Q15253354,"art magazine",17
---,Q15709838,"monthly magazine",12
---,Q1684600,"news magazine",6
---,Q1711354,"teen magazine",4
---,Q1791899,"cultural magazine",4
----,Q13593182,"comics magazine",4
-----,Q15296520,"manga magazine",1
------,Q15296535,"Japanese manga magazine",2
-----,Q5484460,"Franco-Belgian comics magazines",0
----,Q1368848,"literary magazine",162
-----,Q16000113,"horror fiction magazine",0
-----,Q3399338,"science fiction magazine",4
-----,Q4433771,"fantasy fiction magazine",0
-----,Q865585,"pulp magazine",3
----,Q1824338,"music magazine",9
----,Q22575725,"film magazine",0
----,Q22575733,Q22575733,0
----,Q577487,"listings magazine",1
---,Q181298,fanzine,12
---,Q1911105,"popular science magazine",2
---,Q21032630,"Sticker album",0
---,Q21114848,"magazine genre",31
---,Q2116411,Q2116411,1
----,Q20820199,Q20820199,1
----,Q21886169,Q21886169,0
---,Q264238,newsletter,9
----,Q20828395,"AGRISEDE. La lettre du Sud-Ouest",0
---,Q2903810,Q2903810,2
---,Q3244962,"pornographic magazine",1
---,Q3267592,"automobile magazine",5
---,Q3402519,"computer magazine",4
----,Q15206730,Q15206730,3
---,Q3765873,"house organ",0
----,Q1303200,"customer magazine",0
---,Q416,"disk magazine",14
---,Q4468966,Q4468966,0
---,Q6545508,"lifestyle magazine",3
---,Q685935,"specialized periodical publication",134
----,Q16024164,Q16024164,5
----,Q3153624,Intervalles,0
----,Q3759091,"public journal",27
-----,Q17541977,Q17541977,1
-----,Q19828368,"Ministerial Official Journal of the Kingdom of Bavaria",0
----,Q737498,"academic journal",1603
-----,Q21834496,"archaeology journal",96
-----,Q5633421,"scientific journal",22528
------,Q1193201,"Proceedings of the Royal Society",0
------,Q1376897,"European Physical Journal",0
-=====,Q16024164,Q16024164,5
------,Q20055188,"botany journal",1
------,Q2032547,"Physica Status Solidi",0
------,Q2360559,"mathematics journal",16
-======,Q15266777,"Ulam Quarterly",0
------,Q2667573,"Comptes rendus de l'Académie des sciences",0
------,Q2813257,"Environment and Planning",0
------,Q3428685,"public health journal",0
------,Q343155,"Acta Crystallographica",0
------,Q4744254,"American Journal of Medical Genetics",0
------,Q4835951,"BMC journals",0
------,Q5253501,"delayed open access journal",0
------,Q7169012,"Perkin Transactions",0
------,Q787045,Trends,0
------,Q869847,"Physical Review",0
------,Q902474,"Chemische Berichte",0
------,Q903605,"Journal of the Chemical Society",0
-----,Q627517,"history journal",293
-=====,Q21834496,"archaeology journal",96
-----,Q7318362,"review journal",1
-----,Q746654,"law review",767
-----,Q7743644,"The Journals of Gerontology",0
----,Q856566,"Library-related journals",6
-==,Q737498,"academic journal",1603
---,Q867242,"comics anthology",274
---,Q9397629,"fashion magazine",1
-==,Q995205,Gefangenenzeitung,1
--,Q49850,journal,30
--,Q549638,Zine,1
---,Q7260412,"Punk zine",2
--,Q567357,"annual publication",4
---,Q1349569,"Human Rights Record of the United States",14
---,Q171341,almanac,24
---,Q699735,"annual report",2
-=,Q685935,"specialized periodical publication",134
--,Q7620434,"story paper",1
--,Q773668,"open-access journal",6
---,Q5953270,"hybrid open access journal",0
-=,Q867242,"comics anthology",274
--,Q9288110,"Sunday comics",0
+level,item,label,size,sites
+,Q1002697,"periodical literature",12269,32
+-,Q11032,newspaper,11594,161
+--,Q1110794,"daily newspaper",1432,18
+---,Q142043,"free newspaper",13,21
+---,Q1741521,Q1741521,0,1
+--,Q11313190,"sports newspaper",10,1
+--,Q11335135,"block newspaper",0,1
+--,Q11389521,Q11389521,0,1
+--,Q11424411,Q11424411,0,1
+--,Q11458528,Q11458528,0,1
+--,Q1153191,"online newspaper",42,26
+--,Q1278984,"special edition",0,2
+--,Q12878884,"list of Athens and Piraeus newspapers",0,1
+--,Q1416653,"newspaper of record",0,6
+--,Q1449648,tabloid,8,35
+---,Q5100946,"Chinese tabloid",0,1
+--,Q16853516,"newspapers in Romansh",0,1
+--,Q18661033,Nykypäivä,0,1
+--,Q1868552,"local newspaper",8,2
+--,Q190705,zentralorgan,1,2
+--,Q2006125,"street newspaper",1,13
+--,Q2138556,"regional newspaper",3,3
+--,Q22981456,Q22981456,9,0
+---,Q22999050,Q22999050,0,1
+--,Q2305295,"weekly newspaper",56,16
+---,Q3402495,"Sunday edition",1,2
+--,Q2390658,"village newspaper",0,2
+--,Q2497638,"youth media",3,5
+--,Q2943864,"news satire",4,4
+--,Q3186859,"trench newspaper",1,3
+--,Q3186988,Q3186988,5,1
+--,Q329669,"subscription newspaper",0,1
+--,Q3899141,"penny press",0,4
+--,Q4736543,"alternative newspaper",4,4
+--,Q5155035,"community paper",0,1
+--,Q5155101,"commuter newspaper",0,1
+--,Q5276122,"digital newspaper",0,2
+--,Q5469882,form,0,3
+--,Q6158891,"Japanese newspaper",0,4
+--,Q6841189,"Middle-market newspaper",0,2
+--,Q738377,"student newspaper",10,8
+--,Q7426758,"Saturday sports paper",0,1
+--,Q7531230,"sister paper",0,1
+--,Q832165,"house journal",1,1
+--,Q895089,"tabloid journalism",4,11
+--,Q995205,Gefangenenzeitung,1,1
+-,Q1327300,"electronic journal",6,10
+--,Q15266777,"Ulam Quarterly",0,1
+-,Q30849,blog,60,113
+--,Q1134687,"corporate blog",0,6
+--,Q14759031,"Travel blog",0,1
+--,Q15292273,Q15292273,1,1
+--,Q1826799,Linklog,0,2
+--,Q21000776,Q21000776,0,1
+--,Q21130352,"group blog",1,0
+--,Q2468316,"collaborative blog",0,6
+--,Q2539446,Q2539446,0,1
+--,Q2617891,"Spam blog",0,9
+--,Q2901024,Biblioblog,0,2
+--,Q2906864,"fashion blog",1,7
+--,Q429707,"Mobile blogging",0,15
+--,Q4797179,"Art blog",0,1
+--,Q498783,Warblog,0,5
+--,Q5340829,Edublog,0,2
+--,Q5431486,"Fake blog",0,3
+--,Q5442871,"Feminist blog",1,1
+--,Q5690817,"Health blog",0,1
+--,Q674926,"video blog",0,28
+--,Q7209566,"Police blog",1,1
+--,Q7210258,"Political blog",0,2
+--,Q7239010,"Prayer blog",0,1
+--,Q7245773,"Prison blogs",0,1
+--,Q7249390,"Project blog",0,1
+--,Q752295,Photoblog,1,22
+--,Q842399,"MP3 blog",1,2
+--,Q884863,"blog fiction",0,3
+--,Q92438,microblogging,0,38
+---,Q6839276,"microblogging novel",0,1
+-,Q3129162,Q3129162,0,1
+-,Q3374808,"penny dreadful",0,4
+-,Q41298,magazine,14027,93
+--,Q1059863,"women's magazine",1,7
+--,Q12408563,Q12408563,1,1
+--,Q12902861,Q12902861,1,1
+--,Q1391617,"trade magazine",18,2
+---,Q4857987,"Bar journal",0,1
+--,Q15253354,"art magazine",17,0
+--,Q15709838,"monthly magazine",12,0
+--,Q1684600,"news magazine",6,13
+--,Q1711354,"teen magazine",4,5
+--,Q1791899,"cultural magazine",4,1
+---,Q13593182,"comics magazine",4,1
+----,Q15296520,"manga magazine",1,5
+-----,Q15296535,"Japanese manga magazine",2,3
+----,Q5484460,"Franco-Belgian comics magazines",0,1
+---,Q1368848,"literary magazine",162,18
+----,Q16000113,"horror fiction magazine",0,1
+----,Q3399338,"science fiction magazine",4,3
+----,Q4433771,"fantasy fiction magazine",0,1
+----,Q865585,"pulp magazine",3,28
+---,Q1824338,"music magazine",9,5
+---,Q22575725,"film magazine",0,2
+---,Q22575733,Q22575733,0,0
+---,Q577487,"listings magazine",1,5
+--,Q181298,fanzine,12,35
+--,Q1911105,"popular science magazine",2,4
+--,Q21032630,"Sticker album",0,5
+--,Q21114848,"magazine genre",31,0
+--,Q2116411,Q2116411,1,1
+---,Q20820199,Q20820199,1,1
+---,Q21886169,Q21886169,0,2
+--,Q264238,newsletter,9,22
+---,Q20828395,"AGRISEDE. La lettre du Sud-Ouest",0,0
+--,Q2903810,Q2903810,2,3
+--,Q3244962,"pornographic magazine",1,14
+--,Q3267592,"automobile magazine",5,7
+--,Q3402519,"computer magazine",4,3
+---,Q15206730,Q15206730,3,0
+--,Q3765873,"house organ",0,2
+---,Q1303200,"customer magazine",0,5
+--,Q416,"disk magazine",14,7
+--,Q4468966,Q4468966,0,2
+--,Q6545508,"lifestyle magazine",3,1
+--,Q685935,"specialized periodical publication",134,8
+---,Q16024164,Q16024164,5,1
+---,Q2065227,"official journal",27,23
+----,Q17541977,Q17541977,1,2
+----,Q19828368,"Ministerial Official Journal of the Kingdom of Bavaria",0,0
+---,Q3153624,Intervalles,0,1
+---,Q737498,"academic journal",1604,12
+----,Q21834496,"archaeology journal",96,0
+----,Q5633421,"scientific journal",22530,32
+-----,Q1193201,"Proceedings of the Royal Society",0,11
+-----,Q1376897,"European Physical Journal",0,8
+=====,Q16024164,Q16024164,5,1
+-----,Q20055188,"botany journal",1,0
+-----,Q2032547,"Physica Status Solidi",0,3
+-----,Q2360559,"mathematics journal",16,3
+======,Q15266777,"Ulam Quarterly",0,1
+-----,Q2667573,"Comptes rendus de l'Académie des sciences",0,8
+-----,Q2813257,"Environment and Planning",0,2
+-----,Q3428685,"public health journal",0,5
+-----,Q343155,"Acta Crystallographica",0,6
+-----,Q4744254,"American Journal of Medical Genetics",0,1
+-----,Q4835951,"BMC journals",0,0
+-----,Q5253501,"delayed open access journal",0,2
+-----,Q7169012,"Perkin Transactions",0,1
+-----,Q787045,Trends,0,5
+-----,Q869847,"Physical Review",0,19
+-----,Q902474,"Chemische Berichte",0,8
+-----,Q903605,"Journal of the Chemical Society",0,7
+----,Q627517,"history journal",293,4
+=====,Q21834496,"archaeology journal",96,0
+----,Q7318362,"review journal",1,2
+----,Q746654,"law review",767,5
+----,Q7743644,"The Journals of Gerontology",0,1
+---,Q856566,"Library-related journals",6,1
+==,Q737498,"academic journal",1604,12
+--,Q867242,"comics anthology",274,6
+--,Q9397629,"fashion magazine",1,4
+==,Q995205,Gefangenenzeitung,1,1
+-,Q49850,journal,30,12
+-,Q549638,Zine,1,10
+--,Q7260412,"Punk zine",2,2
+-,Q567357,"annual publication",4,4
+--,Q1349569,"Human Rights Record of the United States",14,6
+--,Q171341,almanac,25,56
+--,Q699735,"annual report",2,16
+-,Q7620434,"story paper",1,1
+-,Q773668,"open-access journal",7,6
+--,Q5953270,"hybrid open access journal",0,4
+=,Q867242,"comics anthology",274,6
+-,Q9288110,"Sunday comics",0,2
