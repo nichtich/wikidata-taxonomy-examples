@@ -64,9 +64,15 @@ if ($opt{from}) {
     my $property = $opt{property};
     my $size     = $opt{size};
 
-    my $vars = "?item ?itemLabel ?parent ?size ?sites";
+    my $vars = "?item ?itemLabel ?broader ?parents ?size ?sites";
 	my $sparql = <<SPARQL;
 {
+    { 
+		SELECT ?item (count(distinct ?parent)-1 as ?parents) {
+			?item wdt:$property* wd:$root
+			OPTIONAL { ?item wdt:$property ?parent }
+		} GROUP BY ?item 
+	}
   	{ 
 		SELECT ?item (count(distinct ?element) as ?size) {
 			?item wdt:$property* wd:$root
@@ -79,7 +85,7 @@ if ($opt{from}) {
 			OPTIONAL { ?site schema:about ?item }
 		} GROUP BY ?item 
 	}
-  	OPTIONAL { ?item wdt:$property ?parent }
+  	OPTIONAL { ?item wdt:$property ?broader }
 SPARQL
 
     if ($opt{field}) {
@@ -118,11 +124,11 @@ importer( 'JSON', fh => $input )->each(sub{
     $items{$id} = $_[0];
     warn "$id is no item!\n" if $id !~ /^Q\d+$/;
 
-    if ( $_[0]->{parent} ) {
-        if ( $id eq $_[0]->{parent} ) {
+    if ( $_[0]->{broader} ) {
+        if ( $id eq $_[0]->{broader} ) {
             warn "$id is subclass of itself!\n"
         } else {
-            $g->add_edge( $_[0]->{item}, $_[0]->{parent} );
+            $g->add_edge( $_[0]->{item}, $_[0]->{broader} );
         }
     }
 });
@@ -140,7 +146,7 @@ my $csv = Text::CSV->new({ binary => 1, sep_char => ',', quote_char => '"', eol 
 open my $csvfile, '>', "$root.csv";
 binmode $csvfile, ':encoding(UTF-8)';
 
-my @fields = qw(level item label size sites);
+my @fields = qw(level item label parents size sites);
 push @fields, 'field' if $opt{field}; 
 
 sub make_tree {
