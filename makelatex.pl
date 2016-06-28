@@ -9,14 +9,20 @@ use Pandoc::Elements;
 binmode(STDOUT, ":encoding(UTF-8)");
 
 my $file = shift @ARGV;
-my $items = importer('CSV', file => $file);
+my $entries = importer('CSV', file => $file);
+my %items;
 
 say '\begin{tabbing}';
 say '\hspace*{58mm}X\= \kill';
 
-$items->each(sub {
+$entries->each(sub {
     my $item = shift;
     
+    $items{ $item->{item} } //= { 
+        sites => $item->{sites},
+        instances => $item->{size},
+    };
+
     my $level = $item->{level};
     if ($level) {
         $level =~ s/./\\cdot\\:/g; 
@@ -45,3 +51,22 @@ $items->each(sub {
 });
 
 say '\end{tabbing}';
+say '';
+
+my $classes   = keys %items;
+my $instances = grep {$_->{instances}} values %items;
+my $sites     = grep {$_->{sites}} values %items;
+
+say '\vfill';
+say '\begin{tabbing}';
+say '\hspace*{15mm}\=\hspace*{32mm}\=\kill';
+say '\\>\textbf{Summary}\\\\';
+say "\\>number of classes:\\`$classes (100\\%)\\\\";
+say "\\>with instance:\\`$instances (".int($instances/$classes*100)."\\%)\\\\";
+say "\\>with sitelink:\\`$sites (".int($sites/$classes*100)."\\%)";
+$instances = shift @ARGV;
+if ($instances) {
+    say "\\\\\\>number of instances:\\`$instances";
+}
+say '\end{tabbing}';
+

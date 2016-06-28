@@ -3,6 +3,8 @@ use v5.14;
 use Pod::Usage;
 use Getopt::Long;
 use Catmandu -all;
+use HTTP::Tiny;
+use RDF::Trine::Iterator::JSONHandler;
 use Graph;
 
 my %opt;
@@ -101,15 +103,29 @@ SPARQL
 SPARQL
     $sparql = "SELECT $vars $sparql";
     $sparql =~ s/\n/ /mg;
-    #my $cmd = "wdq -i -g$opt{language} -lid '$sparql'";
-    my $cmd = "wdq -i '$sparql'";
-
-    if ($opt{dry}) {
-        say($cmd) && exit;
-    }
+    my $cmd = "wdq -i -g$opt{language} -lid '$sparql'";
+    #my $cmd = "wdq -i '$sparql'";
 
     open($input, "$cmd |") ## no critic
         or die "wdq execution failed!\n";
+}
+
+sub wikidata_query {
+    my $sparql = shift;
+    say($sparql) && exit if $opt{dry};
+    
+    my $query = { query => $sparql, format => 'json' };
+    my $http = HTTP::Tiny->new(timeout => 30);
+    my $url = 'https://query.wikidata.org/bigdata/namespace/wdq/sparql?'
+            . '?' . $http->www_form_urlencode($query);
+    my $res = $http->get($url);
+
+    die "SPARQL query failed\n" unless $res->{success};
+    my $rdf = RDF::Trine::Iterator::JSONHandler->new->parse($res->{content});
+
+    while ( my $row = $rdf->next ) {
+        ...
+    }
 }
 
 # parse SPARQL query result

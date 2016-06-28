@@ -1,0 +1,27 @@
+level,item,label,parents,size,sites
+,Q42848,data,0,4,79
+-,Q15809982,"research data",0,0,1
+-,Q17077088,quasi-identifier,0,0,1
+-,Q180160,metadata,0,0,48
+--,Q17162673,subject,0,0,1
+--,Q20745594,"bibliographic metadata",0,0,0
+--,Q2722260,attribute,0,2,11
+---,Q5636097,"HTML attribute",0,0,1
+--,Q857525,annotation,0,2,18
+---,Q333291,abstract,0,1,28
+----,Q4056433,Q4056433,1,0,4
+----,Q6343180,Q6343180,0,0,1
+-,Q209867,telemetry,0,0,36
+-,Q2336004,"Semi-structured data",0,0,7
+-,Q336127,"sales data",0,0,1
+-,Q350758,"Geospatial information",0,0,12
+-,Q494756,data,0,0,18
+--,Q1048236,machine-readable,0,0,4
+---,Q856,barcode,0,1,64
+----,Q12203,"QR code",1,0,64
+----,Q1570049,"Code 128",0,0,13
+----,Q794126,"Aztec Code",0,0,8
+--,Q2754911,"Orders of magnitude",1,0,8
+-,Q591605,mask,0,0,12
+-,Q6723621,"machine-readable data",0,0,7
+-,Q858810,"big data",0,0,39

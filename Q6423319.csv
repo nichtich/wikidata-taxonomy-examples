@@ -21,19 +21,19 @@ level,item,label,parents,size,sites
 --,Q7995661,"White pages schema",0,0,1
 -,Q1420493,"conceptual graph",1,0,6
 -,Q1469824,"controlled vocabulary",0,9,8
---,Q17152639,thesaurus,0,7,1
+--,Q17152639,thesaurus,0,9,5
 -,Q1673963,"synonym ring",0,0,5
--,Q192833,"mind map",1,0,46
+-,Q192833,"mind map",1,0,47
 -,Q2005002,"numbering scheme",0,0,3
--,Q2352616,catalog,2,116,11
+-,Q2352616,catalog,2,120,11
 --,Q1006160,gazetteer,1,1,18
 --,Q1400059,urbarium,0,2,18
 --,Q1428914,"business register",0,1,1
 ---,Q1394657,"company register",0,9,12
 --,Q16101780,"population register",1,0,1
---,Q1631107,bibliography,0,603,6
+--,Q1631107,bibliography,0,609,6
 ---,Q1050259,"catalogue raisonné",1,44,9
----,Q1371849,filmography,0,683,10
+---,Q1371849,filmography,0,682,10
 ----,Q17438413,videography,0,14,0
 ---,Q1391116,"subject bibliography",0,0,1
 ---,Q1569406,playlist,1,0,14
@@ -62,18 +62,19 @@ level,item,label,parents,size,sites
 ---,Q3423635,"metadata registry",0,0,4
 --,Q254213,"civil registry",1,2,25
 ---,Q21126234,"birth registry",1,1,0
---,Q327349,"web directory",1,2,30
---,Q3346024,Nuancier,0,1,2
+--,Q327349,"web directory",1,11,30
+--,Q3346024,nuancier,0,1,2
 ---,Q369074,"RAL color system",1,0,16
 --,Q36524,"authority control",1,36,42
 --,Q367035,"address book",1,1,10
---,Q605175,"astronomical catalog",0,27,26
+--,Q605175,"astronomical catalog",0,26,26
+---,Q2941628,"catalogue of galaxies",0,2,1
 ---,Q850950,"star catalogue",0,18,30
 --,Q672598,"land registration",0,4,25
 ---,Q1413174,"Ōtabumi",0,0,4
 --,Q780605,"exhibition catalogue",0,7,5
 --,Q815410,inventory,0,2,36
----,Q15097084,"heritage register",0,70,1
+---,Q15097084,"heritage register",0,71,1
 ----,Q1003021,"buildings at risk register",1,0,1
 --,Q897682,"business directory",0,0,4
 -,Q23622,dictionary,1,175,125
@@ -83,9 +84,9 @@ level,item,label,parents,size,sites
 ----,Q22001389,"Wiktionary language edition",2,7,0
 --,Q15192747,"defining vocabulary",1,0,1
 --,Q17094463,"multi-field dictionary",0,0,1
---,Q179797,thesaurus,0,10,50
+--,Q179797,"lexicographic thesaurus",0,8,47
 --,Q2191807,"rime dictionary",0,4,7
---,Q2210568,"Rhyming dictionary",0,0,11
+--,Q2210568,"rhyming dictionary",0,0,11
 --,Q2361647,"conceptual dictionary",0,0,6
 --,Q2640207,"bilingual dictionary",0,2,13
 --,Q378914,"orthographic dictionary",0,0,7
@@ -96,32 +97,34 @@ level,item,label,parents,size,sites
 --,Q5988830,"idiom dictionary",0,0,2
 --,Q6486734,"language for specific purposes dictionary",0,0,1
 --,Q6806507,"medical dictionary",0,1,2
---,Q7187214,"Phonetic dictionary",0,0,1
---,Q7191193,"Picture dictionary",0,0,2
---,Q7523718,"Single-field dictionary",0,0,1
---,Q7574915,"Specialized dictionary",0,0,2
---,Q7630614,"Sub-field dictionary",0,0,1
+--,Q7187214,"phonetic dictionary",0,0,1
+--,Q7191193,"picture dictionary",0,0,2
+--,Q7523718,"single-field dictionary",0,0,1
+--,Q7574915,"specialized dictionary",0,0,2
+---,Q7630614,"sub-field dictionary",0,0,1
 --,Q8096,lexicon,1,5,38
 --,Q859161,glossary,1,13,35
---,Q861712,"visual dictionary",0,0,6
---,Q897755,"Explanatory dictionary",0,4,6
----,Q6901667,"Monolingual learner's dictionary",0,0,2
+--,Q861712,"visual dictionary",0,1,6
+--,Q897755,"explanatory dictionary",0,4,6
+---,Q4459737,"explanatory combinatorial dictionary",0,0,2
+---,Q6901667,"monolingual learner's dictionary",0,0,2
 --,Q975413,"encyclopedic dictionary",1,40,7
----,Q1787111,"biographical encyclopedia",1,53,8
+---,Q1787111,"biographical encyclopedia",1,55,8
 -,Q2623243,"conceptual model",1,3,14
---,Q1634555,"Conceptual model (computer science)",0,0,1
+--,Q1634555,"conceptual model (computer science)",0,0,1
 ==,Q2262868,"domain model",1,0,6
 ==,Q2268965,"conceptual schema",1,0,6
---,Q477538,"Systems architecture",0,1,9
---,Q652594,"Hierarchical temporal memory",0,0,5
+--,Q477538,"systems architecture",0,1,9
+--,Q652594,"hierarchical temporal memory",0,0,5
 ==,Q7449052,"semantic data model",1,0,1
 -,Q324254,ontology,0,25,31
---,Q3882785,"Upper ontology",0,6,2
---,Q7247296,"Process ontology",0,0,1
---,Q7554009,"Soft ontology",0,0,1
---,Q7977959,"Weak ontology",0,0,1
+--,Q1925081,metamodel,0,6,11
+--,Q3882785,"upper ontology",0,5,2
+--,Q7247296,"process ontology",0,0,1
+--,Q7554009,"soft ontology",0,0,1
+--,Q7977959,"weak ontology",0,0,1
 =,Q36524,"authority control",1,36,42
--,Q5292,encyclopedia,1,258,180
+-,Q5292,encyclopedia,1,258,181
 --,Q13419255,"hypertext encyclopedia",0,5,1
 --,Q1525071,"universal encyclopedia",0,1,2
 --,Q615699,"internet encyclopedia",1,29,27

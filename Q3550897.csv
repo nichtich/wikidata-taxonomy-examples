@@ -1,15 +1,17 @@
-level,id,label
-,Q3550897,"lithostratigraphic unit"
--,Q11755860,subgroup
--,Q12758989,stratum
--,Q2092603,member
--,Q736917,formation
---,Q11755878,member
----,Q806617,bed
----,Q82337,"Portland limestone"
---,Q1404150,rock
----,Q1774225,"Climbing rock"
---,Q358877,cavus
---,Q5567629,"Glen Canyon Group"
--,Q7452453,sequence
--,Q824979,group
+level,item,label,parents,size,sites
+,Q3550897,"lithostratigraphic unit",-1,1,1
+-,Q11755860,subgroup,0,11,0
+-,Q12758989,stratum,0,1,33
+-,Q2092603,member,0,2,2
+-,Q736917,formation,0,5437,27
+--,Q11755878,member,0,2,0
+---,Q806617,bed,0,0,13
+---,Q82337,"Portland limestone",1,0,11
+--,Q1404150,rock,0,43,3
+---,Q1774225,"Climbing rock",1,1,2
+--,Q24576816,"group of rocks",0,26,0
+--,Q358877,cavus,1,32,5
+--,Q5567629,"Glen Canyon Group",0,0,1
+---,Q6890219,"Moenave Formation",0,0,1
+-,Q7452453,sequence,0,0,1
+-,Q824979,group,0,116,6

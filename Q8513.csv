@@ -1,0 +1,54 @@
+level,item,label,parents,size,sites
+,Q8513,database,2,310,94
+-,Q1172362,"database dump",1,2,4
+-,Q118171,"object database",0,0,23
+--,Q16928031,"NeoDatis ODB",0,0,1
+--,Q220399,"Zope Object Database",0,0,11
+--,Q285745,Db4o,0,0,9
+-,Q1235234,"document repository",1,1,3
+--,Q1065413,"institutional repository",0,3,13
+--,Q1334294,"software repository",0,12,17
+--,Q24635894,"research data repository",0,2,0
+--,Q5281480,"disciplinary repository",0,2,1
+-,Q1235236,"document-oriented database",1,8,8
+-,Q13417806,LithoLex,0,0,0
+-,Q1414426,"film database",0,29,1
+-,Q1416406,"network model",0,0,19
+-,Q14408490,"BGS Lexicon of Named Rock Units",0,0,0
+-,Q1501313,Q1501313,0,0,1
+-,Q17014602,"twin registry",0,0,1
+-,Q1789476,"bibliographic database",1,38,13
+--,Q206290,"citation index",0,0,17
+-,Q192588,"relational database",0,0,38
+-,Q2302053,"spatial database",0,0,12
+--,Q1569955,PostGIS,0,0,17
+--,Q3348148,"object-based spatial database",0,0,2
+--,Q5535082,"geographical database",0,4,2
+--,Q7574095,"spatiotemporal database",0,0,1
+-,Q2404903,termbase,0,1,8
+-,Q24249966,"NCBI Nucleotide",0,0,0
+-,Q24266708,"NCBI Protein",0,0,0
+-,Q24579448,"podcast directory",0,1,0
+-,Q2499178,"cloud database",0,2,8
+-,Q2881060,"chemical database",0,19,9
+--,Q5191437,"crystallographic database",0,1,1
+-,Q2912944,"photo library",1,2,7
+-,Q3071343,"government database",0,1,2
+--,Q254213,"civil registry",1,2,25
+---,Q21126234,"birth registry",1,1,0
+-,Q3133368,repository,0,2,6
+-,Q333761,"translation memory",0,0,27
+-,Q4117139,"biological database",0,416,5
+--,Q21538537,"medical database",0,8,0
+--,Q5570651,"global species database",0,1,1
+-,Q4501235,"content repository",0,0,2
+-,Q593744,"knowledge base",0,12,31
+--,Q1391125,Q1391125,0,1,1
+---,Q2560532,"materials database",0,0,3
+-,Q6822482,"Metadata repository",0,0,1
+-,Q7094076,"online database",1,116,3
+-,Q7689673,"Taxonomic database",0,1,1
+-,Q7702836,"Terminology-oriented database",0,0,1
+-,Q856638,"library catalog",1,19,24
+--,Q526334,"union catalog",0,15,7
+-,Q989016,"distributed database",0,1,18
