@@ -1,19 +1,19 @@
 level,item,label,parents,size,sites
-,Q1002697,"periodical literature",1,12272,33
--,Q11032,newspaper,2,11612,161
---,Q1110794,"daily newspaper",0,1435,18
----,Q142043,"free newspaper",1,13,21
+,Q1002697,"periodical literature",1,12317,33
+-,Q11032,newspaper,2,11688,161
+--,Q1110794,"daily newspaper",0,1446,18
+---,Q142043,"free newspaper",1,14,21
 ---,Q1741521,Q1741521,0,0,1
 --,Q11313190,"sports newspaper",0,10,1
 --,Q11335135,"block newspaper",0,0,1
 --,Q11389521,Q11389521,0,0,1
 --,Q11424411,Q11424411,0,0,1
 --,Q11458528,Q11458528,0,0,1
---,Q1153191,"online newspaper",1,42,26
+--,Q1153191,"online newspaper",1,43,26
 --,Q1278984,"special edition",0,0,2
 --,Q12878884,"list of Athens and Piraeus newspapers",0,0,1
 --,Q1416653,"newspaper of record",0,0,6
---,Q1449648,tabloid,0,8,35
+--,Q1449648,tabloid,0,12,35
 ---,Q5100946,"Chinese tabloid",0,0,1
 --,Q16853516,"newspapers in Romansh",0,0,1
 --,Q18661033,Nykypäivä,0,0,1
@@ -23,7 +23,7 @@ level,item,label,parents,size,sites
 --,Q2138556,"regional newspaper",0,3,3
 --,Q22981456,Q22981456,0,9,0
 ---,Q22999050,Q22999050,0,0,1
---,Q2305295,"weekly newspaper",0,57,16
+--,Q2305295,"weekly newspaper",0,59,16
 ---,Q3402495,"Sunday edition",0,1,2
 --,Q2390658,"village newspaper",0,0,2
 --,Q2497638,"youth media",0,3,5
@@ -46,7 +46,7 @@ level,item,label,parents,size,sites
 --,Q995205,Gefangenenzeitung,1,1,1
 -,Q1327300,"electronic journal",1,6,10
 --,Q15266777,"Ulam Quarterly",1,0,1
--,Q30849,blog,1,60,113
+-,Q30849,blog,1,59,113
 --,Q1134687,"corporate blog",0,0,6
 --,Q14759031,"Travel blog",0,0,1
 --,Q15292273,Q15292273,0,1,1
@@ -78,7 +78,7 @@ level,item,label,parents,size,sites
 ---,Q6839276,"microblogging novel",1,0,1
 -,Q3129162,Q3129162,0,0,1
 -,Q3374808,"penny dreadful",1,0,4
--,Q41298,magazine,0,14066,93
+-,Q41298,magazine,0,14089,93
 --,Q1059863,"women's magazine",0,1,7
 ---,Q24826340,"josei manga magazine",1,45,0
 ----,Q11345451,"Young Ladies comic magazine",0,7,2
@@ -125,15 +125,15 @@ level,item,label,parents,size,sites
 --,Q4468966,Q4468966,0,0,2
 --,Q4736543,"alternative newspaper",0,5,4
 --,Q6545508,"lifestyle magazine",0,3,1
---,Q685935,"specialized periodical publication",0,135,8
+--,Q685935,"specialized periodical publication",0,136,8
 ---,Q16024164,Q16024164,1,5,1
----,Q2065227,"official journal",0,27,23
+---,Q2065227,"official journal",0,28,23
 ----,Q17541977,Q17541977,0,1,2
 ----,Q19828368,"Ministerial Official Journal of the Kingdom of Bavaria",0,0,0
 ---,Q3153624,Intervalles,0,0,1
----,Q737498,"academic journal",1,1605,13
+---,Q737498,"academic journal",1,1606,13
 ----,Q21834496,"archaeology journal",1,96,0
-----,Q5633421,"scientific journal",0,22536,32
+----,Q5633421,"scientific journal",0,22541,32
 -----,Q1193201,"Proceedings of the Royal Society",0,0,11
 -----,Q1376897,"European Physical Journal",0,0,8
 =====,Q16024164,Q16024164,1,5,1
@@ -159,16 +159,16 @@ level,item,label,parents,size,sites
 ----,Q746654,"law review",0,767,5
 ----,Q7743644,"The Journals of Gerontology",0,0,1
 ---,Q856566,"Library-related journals",0,6,1
-==,Q737498,"academic journal",1,1605,13
+==,Q737498,"academic journal",1,1606,13
 --,Q867242,"comics anthology",1,274,6
 --,Q9397629,"fashion magazine",0,1,4
 ==,Q995205,Gefangenenzeitung,1,1,1
--,Q49850,journal,1,30,12
+-,Q49850,journal,1,31,12
 -,Q549638,Zine,0,1,10
 --,Q7260412,"Punk zine",0,2,2
 -,Q567357,"annual publication",0,5,4
 --,Q1349569,"Human Rights Record of the United States",1,14,6
---,Q171341,almanac,1,25,56
+--,Q171341,almanac,1,26,56
 --,Q699735,"annual report",0,2,16
 -,Q7620434,"story paper",0,1,1
 -,Q773668,"open-access journal",0,7,6

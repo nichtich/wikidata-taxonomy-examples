@@ -1,5 +1,5 @@
 level,item,label,parents,size,sites
-,Q6423319,"knowledge organization system",1,2,3
+,Q6423319,"knowledge organization system",2,2,3
 -,Q1045785,"semantic network",1,3,20
 -,Q1172480,"data model",2,5,17
 --,Q1147639,"data dictionary",1,0,15
@@ -21,19 +21,19 @@ level,item,label,parents,size,sites
 --,Q7995661,"White pages schema",0,0,1
 -,Q1420493,"conceptual graph",1,0,6
 -,Q1469824,"controlled vocabulary",0,9,8
---,Q17152639,thesaurus,0,9,5
+--,Q17152639,thesaurus,0,10,5
 -,Q1673963,"synonym ring",0,0,5
 -,Q192833,"mind map",1,0,47
 -,Q2005002,"numbering scheme",0,0,3
--,Q2352616,catalog,2,120,11
---,Q1006160,gazetteer,1,1,18
+-,Q2352616,catalog,2,122,11
+--,Q1006160,gazetteer,1,3,18
 --,Q1400059,urbarium,0,2,18
 --,Q1428914,"business register",0,1,1
 ---,Q1394657,"company register",0,9,12
 --,Q16101780,"population register",1,0,1
---,Q1631107,bibliography,0,609,6
+--,Q1631107,bibliography,0,610,6
 ---,Q1050259,"catalogue raisonné",1,44,9
----,Q1371849,filmography,0,682,10
+---,Q1371849,filmography,0,683,10
 ----,Q17438413,videography,0,14,0
 ---,Q1391116,"subject bibliography",0,0,1
 ---,Q1569406,playlist,1,0,14
@@ -42,18 +42,17 @@ level,item,label,parents,size,sites
 ---,Q2033233,"bibliographic index",0,0,4
 ----,Q1789476,"bibliographic database",1,38,13
 -----,Q206290,"citation index",0,0,17
----,Q2560570,"thematic catalog",0,8,6
----,Q273057,discography,0,5510,34
+---,Q273057,discography,0,5519,34
 ---,Q4769616,"annotated bibliography",0,0,1
 ---,Q5051330,"catalogue of classical compositions",0,14,2
 ---,Q6822329,metabibliography,0,0,1
 ----,Q19220511,"list of music references",0,1,1
----,Q6941730,"music catalog",0,2,2
 ---,Q856638,"library catalog",1,19,24
 ----,Q526334,"union catalog",0,15,7
 --,Q16928212,index,1,4,0
 --,Q1915979,"medal table",0,80,2
 ---,Q3890208,"Olympic medal table",0,54,3
+--,Q1991865,"auction catalog",0,0,3
 --,Q201456,directory,0,3,43
 --,Q2038458,"product catalog",0,0,4
 --,Q220393,"telephone directory",1,1,28
@@ -62,6 +61,7 @@ level,item,label,parents,size,sites
 ---,Q3423635,"metadata registry",0,0,4
 --,Q254213,"civil registry",1,2,25
 ---,Q21126234,"birth registry",1,1,0
+--,Q2560570,"thematic catalog",0,8,6
 --,Q327349,"web directory",1,11,30
 --,Q3346024,nuancier,0,1,2
 ---,Q369074,"RAL color system",1,0,16
@@ -72,19 +72,20 @@ level,item,label,parents,size,sites
 ---,Q850950,"star catalogue",0,18,30
 --,Q672598,"land registration",0,4,25
 ---,Q1413174,"Ōtabumi",0,0,4
+--,Q6941730,"music catalog",0,2,2
 --,Q780605,"exhibition catalogue",0,7,5
 --,Q815410,inventory,0,2,36
 ---,Q15097084,"heritage register",0,71,1
 ----,Q1003021,"buildings at risk register",1,0,1
 --,Q897682,"business directory",0,0,4
--,Q23622,dictionary,1,175,125
+-,Q23622,dictionary,1,178,125
 --,Q1304223,"reverse dictionary",0,0,9
 --,Q1327461,"machine-readable dictionary",0,0,10
 ---,Q3327521,"online dictionary",0,9,6
 ----,Q22001389,"Wiktionary language edition",2,7,0
 --,Q15192747,"defining vocabulary",1,0,1
 --,Q17094463,"multi-field dictionary",0,0,1
---,Q179797,"lexicographic thesaurus",0,8,47
+--,Q179797,"lexicographic thesaurus",0,7,48
 --,Q2191807,"rime dictionary",0,4,7
 --,Q2210568,"rhyming dictionary",0,0,11
 --,Q2361647,"conceptual dictionary",0,0,6
@@ -102,14 +103,14 @@ level,item,label,parents,size,sites
 --,Q7523718,"single-field dictionary",0,0,1
 --,Q7574915,"specialized dictionary",0,0,2
 ---,Q7630614,"sub-field dictionary",0,0,1
---,Q8096,lexicon,1,5,38
+--,Q8096,lexicon,1,4,38
 --,Q859161,glossary,1,13,35
 --,Q861712,"visual dictionary",0,1,6
 --,Q897755,"explanatory dictionary",0,4,6
 ---,Q4459737,"explanatory combinatorial dictionary",0,0,2
 ---,Q6901667,"monolingual learner's dictionary",0,0,2
 --,Q975413,"encyclopedic dictionary",1,40,7
----,Q1787111,"biographical encyclopedia",1,55,8
+---,Q1787111,"biographical encyclopedia",1,56,8
 -,Q2623243,"conceptual model",1,3,14
 --,Q1634555,"conceptual model (computer science)",0,0,1
 ==,Q2262868,"domain model",1,0,6
@@ -124,25 +125,21 @@ level,item,label,parents,size,sites
 --,Q7554009,"soft ontology",0,0,1
 --,Q7977959,"weak ontology",0,0,1
 =,Q36524,"authority control",1,36,42
--,Q5292,encyclopedia,1,258,181
+-,Q5292,encyclopedia,1,260,181
 --,Q13419255,"hypertext encyclopedia",0,5,1
 --,Q1525071,"universal encyclopedia",0,1,2
 --,Q615699,"internet encyclopedia",1,29,27
 ==,Q975413,"encyclopedic dictionary",1,40,7
 -,Q5962346,"classification scheme",0,58,22
---,Q1207369,"decimal classification",0,1,1
+--,Q1207369,"decimal classification",0,6,1
 --,Q1391014,"faceted classification",0,1,11
 --,Q24243801,"universal classification scheme",0,12,0
 --,Q24249534,"specialized classification scheme",0,7,0
 ---,Q1062352,"video game content rating system",1,7,17
----,Q11398,"biological classification",0,10,110
-----,Q1138178,"plant taxonomy",1,0,20
+---,Q11398,"biological classification",0,12,115
+----,Q1138178,"plant taxonomy",1,0,21
 ----,Q19915239,"taxonomy of birds",0,0,1
 ----,Q2621880,syntaxonomy,0,0,9
----,Q15101896,"asteroid classification",0,3,0
-----,Q1750705,"asteroid spectral type",0,19,22
-----,Q2332332,"minor-planet group",0,1,7
-----,Q249083,"asteroid family",0,82,24
 ---,Q1744559,"classification in sports",0,19,3
 ----,Q17080472,"weight class",0,3,7
 -----,Q1520639,"wrestling weight classes",0,0,2
@@ -150,8 +147,13 @@ level,item,label,parents,size,sites
 ----,Q18762344,"age category in athletics",0,5,0
 ----,Q438958,"age category in soccer",0,0,1
 ----,Q893182,"olympic sailing class",1,3,6
----,Q179600,"stellar classification",0,25,58
 ---,Q192625,"linguistic typology",0,2,42
+---,Q25696292,"astronomy classification",0,1,0
+----,Q15101896,"asteroid classification",0,3,0
+-----,Q1750705,"asteroid spectral type",0,19,22
+-----,Q2332332,"minor-planet group",0,1,7
+-----,Q249083,"asteroid family",0,82,25
+----,Q179600,"stellar classification",0,25,59
 ---,Q267474,"climate classification",0,1,14
 ----,Q1502102,"genetic climate classification",0,1,1
 ----,Q21473954,"effective climate classification",0,2,1
@@ -168,11 +170,11 @@ level,item,label,parents,size,sites
 ----,Q16861376,"military casualty classification",0,6,0
 ---,Q732744,"chemical classification",0,3,8
 ---,Q7398671,"safety taxonomy",0,0,1
---,Q48473,"library classification",0,22,21
---,Q7211,taxonomy,0,11,66
+--,Q48473,"library classification",0,24,22
+--,Q7211,taxonomy,0,9,66
 ---,Q8267601,"numerical taxonomy",0,0,5
----,Q8269924,taxonomy,0,7,43
-====,Q1138178,"plant taxonomy",1,0,20
+---,Q8269924,taxonomy,0,7,38
+====,Q1138178,"plant taxonomy",1,0,21
 ----,Q3310776,"botanical nomenclature",1,1,9
 ----,Q3343211,"zoological nomenclature",1,2,2
 -,Q830115,"concept map",1,0,26

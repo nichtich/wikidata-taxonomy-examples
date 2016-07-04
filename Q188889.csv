@@ -10,7 +10,7 @@ level,item,label,parents,size,sites
 -,Q332772,"Gray code",0,0,30
 -,Q494823,"data format",1,27,5
 --,Q21502404,"format constraint",1,0,1
---,Q235557,"file format",0,495,34
+--,Q235557,"file format",0,494,34
 ---,Q1056408,"open format",0,2,21
 ----,Q8436198,"free format",0,2,0
 ---,Q1351368,"archive file format",1,3,12
@@ -51,7 +51,7 @@ level,item,label,parents,size,sites
 --,Q3913,"binary number",0,0,87
 ---,Q276582,"binary-coded decimal",0,1,34
 -,Q906278,"country code",1,1,24
---,Q1140221,"ISO 3166-1 alpha-2 code",0,0,22
+--,Q1140221,"ISO 3166-1 alpha-2 code",0,0,23
 --,Q1341492,"ISO 3166-1 alpha-3 code",0,0,15
 --,Q1394114,"NATO country code",0,0,8
 --,Q1486843,"GS1 country code",0,0,11

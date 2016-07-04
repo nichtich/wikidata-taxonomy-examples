@@ -1,5 +1,5 @@
 level,item,label,parents,size,sites
-,Q8513,database,2,310,94
+,Q8513,database,2,312,94
 -,Q1172362,"database dump",1,2,4
 -,Q118171,"object database",0,0,23
 --,Q16928031,"NeoDatis ODB",0,0,1
@@ -38,7 +38,7 @@ level,item,label,parents,size,sites
 ---,Q21126234,"birth registry",1,1,0
 -,Q3133368,repository,0,2,6
 -,Q333761,"translation memory",0,0,27
--,Q4117139,"biological database",0,416,5
+-,Q4117139,"biological database",0,417,5
 --,Q21538537,"medical database",0,8,0
 --,Q5570651,"global species database",0,1,1
 -,Q4501235,"content repository",0,0,2
