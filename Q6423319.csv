@@ -24,11 +24,11 @@ level,item,label,parents,size,sites
 --,Q7995661,"White pages schema",0,0,1
 -,Q1420493,"conceptual graph",1,0,6
 -,Q1469824,"controlled vocabulary",0,9,8
---,Q17152639,thesaurus,0,10,5
+--,Q17152639,thesaurus,0,11,5
 -,Q1673963,"synonym ring",0,0,5
--,Q192833,"mind map",1,0,47
+-,Q192833,"mind map",1,0,46
 -,Q2005002,"numbering scheme",0,0,3
--,Q2352616,catalog,2,124,11
+-,Q2352616,catalog,2,123,11
 --,Q1006160,gazetteer,1,3,18
 --,Q1400059,urbarium,0,2,18
 --,Q1428914,"business register",0,1,1
@@ -45,9 +45,9 @@ level,item,label,parents,size,sites
 ---,Q2033233,"bibliographic index",0,0,4
 ----,Q1789476,"bibliographic database",1,39,13
 -----,Q206290,"citation index",0,0,17
----,Q273057,discography,0,5517,35
+---,Q273057,discography,0,5520,35
 ---,Q4769616,"annotated bibliography",0,0,1
----,Q5051330,"catalogue of classical compositions",0,14,1
+---,Q5051330,"catalogue of classical compositions",0,22,1
 ---,Q6822329,metabibliography,0,0,1
 ----,Q19220511,"list of music references",0,1,1
 ---,Q856638,"library catalog",1,19,24
@@ -113,8 +113,8 @@ level,item,label,parents,size,sites
 --,Q897755,"explanatory dictionary",0,4,6
 ---,Q4459737,"explanatory combinatorial dictionary",0,0,2
 ---,Q6901667,"monolingual learner's dictionary",0,0,2
---,Q975413,"encyclopedic dictionary",1,41,7
----,Q1787111,"biographical encyclopedia",1,57,8
+--,Q975413,"encyclopedic dictionary",1,42,7
+---,Q1787111,"biographical encyclopedia",1,58,8
 -,Q2623243,"conceptual model",1,3,14
 --,Q1634555,"conceptual model (computer science)",0,0,1
 ==,Q2262868,"domain model",1,0,6
@@ -129,20 +129,20 @@ level,item,label,parents,size,sites
 --,Q7554009,"soft ontology",0,0,1
 --,Q7977959,"weak ontology",0,0,1
 =,Q36524,"authority control",1,36,42
--,Q5292,encyclopedia,1,265,182
+-,Q5292,encyclopedia,1,264,182
 --,Q13419255,"hypertext encyclopedia",0,6,1
 --,Q1525071,"universal encyclopedia",0,1,2
 --,Q615699,"internet encyclopedia",1,29,27
-==,Q975413,"encyclopedic dictionary",1,41,7
--,Q5962346,"classification scheme",0,60,22
+==,Q975413,"encyclopedic dictionary",1,42,7
+-,Q5962346,"classification scheme",0,56,23
 --,Q1207369,"decimal classification",0,6,1
 --,Q1391014,"faceted classification",0,1,11
 --,Q24243801,"universal classification scheme",0,12,0
---,Q24249534,"specialized classification scheme",0,8,0
+--,Q24249534,"specialized classification scheme",0,10,0
 ---,Q1062352,"video game content rating system",1,7,17
----,Q11398,"biological classification",0,12,115
+---,Q11398,"biological classification",0,12,114
 ----,Q1138178,"plant taxonomy",1,0,21
-----,Q19915239,"taxonomy of birds",0,0,1
+----,Q19915239,"taxonomy of birds",0,0,2
 ----,Q2621880,syntaxonomy,0,0,9
 ---,Q1744559,"classification in sports",0,19,3
 ----,Q17080472,"weight class",0,3,7
@@ -174,10 +174,10 @@ level,item,label,parents,size,sites
 ----,Q16861376,"military casualty classification",0,6,0
 ---,Q732744,"chemical classification",0,3,8
 ---,Q7398671,"safety taxonomy",0,0,1
---,Q48473,"library classification",0,24,22
---,Q7211,taxonomy,0,9,66
+--,Q48473,"library classification",0,25,22
+--,Q7211,taxonomy,0,9,64
 ---,Q8267601,"numerical taxonomy",0,0,5
----,Q8269924,taxonomy,0,7,38
+---,Q8269924,taxonomy,0,7,39
 ====,Q1138178,"plant taxonomy",1,0,21
 ----,Q3310776,"botanical nomenclature",1,1,9
 ----,Q3343211,"zoological nomenclature",1,2,2
@@ -186,7 +186,7 @@ level,item,label,parents,size,sites
 --,Q1192539,"medical terminology",1,6,10
 --,Q20202269,"music terminology",1,13,0
 --,Q494291,folksonomy,1,0,31
---,Q863247,nomenclature,0,5,25
+--,Q863247,nomenclature,0,6,25
 ---,Q2404232,nosography,0,1,3
 ---,Q522190,"biological nomenclature",0,12,12
 ----,Q2976606,"phylogenetic nomenclature",0,0,10
