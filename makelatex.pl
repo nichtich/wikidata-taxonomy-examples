@@ -1,6 +1,6 @@
 #!/usr/bin/env perl
 #
-# convert Wikidata classification given in CSV format to LaTeX
+# convert CSV output of wikidata-taxonomy to LaTeX
 #
 use v5.14;
 use Catmandu -all;
